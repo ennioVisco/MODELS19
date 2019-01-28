@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<core:CityModel xmlns="http://www.opengis.net/citygml/1.0" xmlns:core="http://www.opengis.net/citygml/1.0" xmlns:gen="http://www.opengis.net/citygml/generics/1.0" xmlns:grp="http://www.opengis.net/citygml/cityobjectgroup/1.0" xmlns:app="http://www.opengis.net/citygml/appearance/1.0" xmlns:bldg="http://www.opengis.net/citygml/building/1.0" xmlns:gml="http://www.opengis.net/gml" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/citygml/1.0 http://repository.gdi-de.org/schemas/adv/citygml/1.0/cityGMLBaseLoD2.xsd http://www.opengis.net/citygml/building/1.0 http://repository.gdi-de.org/schemas/adv/citygml/building/1.0/buildingLoD2.xsd http://www.opengis.net/citygml/appearance/1.0 http://repository.gdi-de.org/schemas/adv/citygml/appearance/1.0/appearanceLoD2.xsd http://www.opengis.net/citygml/generics/1.0 http://repository.gdi-de.org/schemas/adv/citygml/generics/1.0/genericsLoD2.xsd http://www.opengis.net/citygml/cityobjectgroup/1.0 http://repository.gdi-de.org/schemas/adv/citygml/cityobjectgroup/1.0/cityObjectGroupLoD2.xsd">
+<CityModel xmlns:xAL="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:wtr="http://www.opengis.net/citygml/waterbody/2.0" xmlns:app="http://www.opengis.net/citygml/appearance/2.0" xmlns:tex="http://www.opengis.net/citygml/texturedsurface/2.0" xmlns="http://www.opengis.net/citygml/2.0" xmlns:veg="http://www.opengis.net/citygml/vegetation/2.0" xmlns:dem="http://www.opengis.net/citygml/relief/2.0" xmlns:tran="http://www.opengis.net/citygml/transportation/2.0" xmlns:bldg="http://www.opengis.net/citygml/building/2.0" xmlns:grp="http://www.opengis.net/citygml/cityobjectgroup/2.0" xmlns:tun="http://www.opengis.net/citygml/tunnel/2.0" xmlns:frn="http://www.opengis.net/citygml/cityfurniture/2.0" xmlns:brid="http://www.opengis.net/citygml/bridge/2.0" xmlns:gen="http://www.opengis.net/citygml/generics/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:luse="http://www.opengis.net/citygml/landuse/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/citygml/waterbody/2.0 http://schemas.opengis.net/citygml/waterbody/2.0/waterBody.xsd http://www.opengis.net/citygml/appearance/2.0 http://schemas.opengis.net/citygml/appearance/2.0/appearance.xsd http://www.opengis.net/citygml/texturedsurface/2.0 http://schemas.opengis.net/citygml/texturedsurface/2.0/texturedSurface.xsd http://www.opengis.net/citygml/vegetation/2.0 http://schemas.opengis.net/citygml/vegetation/2.0/vegetation.xsd http://www.opengis.net/citygml/relief/2.0 http://schemas.opengis.net/citygml/relief/2.0/relief.xsd http://www.opengis.net/citygml/transportation/2.0 http://schemas.opengis.net/citygml/transportation/2.0/transportation.xsd http://www.opengis.net/citygml/building/2.0 http://schemas.opengis.net/citygml/building/2.0/building.xsd http://www.opengis.net/citygml/cityobjectgroup/2.0 http://schemas.opengis.net/citygml/cityobjectgroup/2.0/cityObjectGroup.xsd http://www.opengis.net/citygml/tunnel/2.0 http://schemas.opengis.net/citygml/tunnel/2.0/tunnel.xsd http://www.opengis.net/citygml/cityfurniture/2.0 http://schemas.opengis.net/citygml/cityfurniture/2.0/cityFurniture.xsd http://www.opengis.net/citygml/bridge/2.0 http://schemas.opengis.net/citygml/bridge/2.0/bridge.xsd http://www.opengis.net/citygml/generics/2.0 http://schemas.opengis.net/citygml/generics/2.0/generics.xsd http://www.opengis.net/citygml/landuse/2.0 http://schemas.opengis.net/citygml/landuse/2.0/landUse.xsd">
   <gml:name>LoD2_369_5668_1_NW</gml:name>
   <gml:boundedBy>
     <gml:Envelope srsDimension="3"  srsName="urn:adv:crs:ETRS89_UTM32*DE_DHHN2016_NH*GCG2016">
@@ -7,15 +7,15 @@
       <gml:upperCorner>370000.0 5669000.0 210.363</gml:upperCorner>
     </gml:Envelope>
   </gml:boundedBy>
-  <core:cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xBp">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xBp</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xBp</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -71,7 +71,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_36f82f4e-4c7e-4ed5-94b8-2de9482d684d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f84f1c74-7891-4df5-a123-a5ccafebf92a">
               <gml:surfaceMember>
@@ -89,7 +89,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9d77eb7f-29aa-40aa-a2b9-64d304c9e248">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b4fab752-e6e4-4b7d-a683-75adebf09e78">
               <gml:surfaceMember>
@@ -107,7 +107,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_4281877a-a6c6-46b7-a6ec-fc4f78bd15d4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_076bf12a-3803-4397-bd88-8dbe0d64f261">
               <gml:surfaceMember>
@@ -125,7 +125,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_71e84a14-73c5-4f74-aedb-1ece53a70945">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5bb412a4-d721-4184-9f7c-1287fed9ae7b">
               <gml:surfaceMember>
@@ -143,7 +143,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_029dc3a0-7dbb-457f-bb9f-e5151b7764ff">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_346277a2-fe02-4db2-b9ef-a8ab8650a093">
               <gml:surfaceMember>
@@ -161,7 +161,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_c02de028-1444-4141-904c-a1550386f391">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b5838b5e-6329-4651-9db8-60f16c2c2668">
               <gml:surfaceMember>
@@ -178,34 +178,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>36</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>36</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010yR">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010yR</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010yR</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -267,7 +267,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e7d742dc-618f-4d8e-b26d-cb68725b6e78">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_35dcc61e-22cf-47bd-97b0-6e364c5b52f7">
               <gml:surfaceMember>
@@ -285,7 +285,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_cdb82045-6617-4df3-ae7a-3d9232dbcc03">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b205095f-9f12-4acb-a39a-835f59f305c4">
               <gml:surfaceMember>
@@ -303,7 +303,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5ecf9a40-427b-4ae3-aa47-5ef6344b4ade">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_926ed57e-e89c-4d7e-bc71-52178a92df31">
               <gml:surfaceMember>
@@ -321,7 +321,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_707920a3-ede4-4bc2-9da6-c6d1f3847bff">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2a0f79e4-042e-429c-a564-3b5f28e546dd">
               <gml:surfaceMember>
@@ -339,7 +339,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_95282e7a-c232-49f3-8885-45b3905a24cd">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ee3e1ea4-a71f-4c52-b638-927450621b88">
               <gml:surfaceMember>
@@ -357,7 +357,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_d7b47bfe-fd4d-451f-acef-4add682bfadc">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8e84de91-e09a-4c65-aca2-fb6c2bcc269e">
               <gml:surfaceMember>
@@ -375,7 +375,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_cc30affc-3e78-4aa2-bad1-b0dcc4de7134">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_23206341-6aba-4bdf-8d72-f800fa489cd8">
               <gml:surfaceMember>
@@ -392,16 +392,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010yG">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010yG</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010yG</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -457,7 +457,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5f63b3d3-dff0-4c0b-a32e-41feb1d65471">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9dd277ca-ac67-48c6-b0d7-791e1b6ec9bb">
               <gml:surfaceMember>
@@ -475,7 +475,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5a4fa964-8c70-4c6d-8899-55d9e983a7dc">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4fca3af0-bab6-41f2-9ad5-7b617423241e">
               <gml:surfaceMember>
@@ -493,7 +493,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e2e23966-6260-435d-bf88-78c1b43664df">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1ad91a8e-0faf-4046-bf5b-22c8b23acd4d">
               <gml:surfaceMember>
@@ -511,7 +511,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_30f385e5-d0c2-4c63-bf1d-1c9d90929c52">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_24aadbe9-dcef-4b06-b8cf-29da7b2d09b2">
               <gml:surfaceMember>
@@ -529,7 +529,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_0bda1431-d001-4553-8616-4ea7f2c4f1da">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ebd61564-df55-46fc-8f1e-4fcd57e55407">
               <gml:surfaceMember>
@@ -547,7 +547,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_84e7be9a-e286-4ae7-a834-5cbdb896f08f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_86016da9-aec2-4942-8313-f83838da82d6">
               <gml:surfaceMember>
@@ -564,16 +564,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wxW">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wxW</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wxW</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -629,7 +629,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ce7eb746-ac18-4763-b530-2230549579f4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_df74e263-9bb4-4456-8e23-a4e551c21bca">
               <gml:surfaceMember>
@@ -647,7 +647,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5d3be23b-897e-4d49-9c6e-96778e1af756">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_87e6e77f-f9ae-43f5-a734-dc9fe419bef1">
               <gml:surfaceMember>
@@ -665,7 +665,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8bdbeed4-2352-40c3-96d8-2c3264ed19b9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_81ad700a-de19-4316-b460-46e75b305ecb">
               <gml:surfaceMember>
@@ -683,7 +683,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e8b28d2a-5a15-4ed1-9a0d-80f7ebe79f57">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a0b89990-26cf-4735-b765-85b9fddcf6b4">
               <gml:surfaceMember>
@@ -701,7 +701,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_ba296cbd-1a17-4179-949c-93e7e14f9161">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b9389f66-712d-42ea-890e-180478f59cc4">
               <gml:surfaceMember>
@@ -719,7 +719,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_2a81ea0c-0127-4087-bf81-b0d5c2106ce8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4ec96705-b030-4e2c-ac8d-42aee7dd6d30">
               <gml:surfaceMember>
@@ -736,34 +736,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>1</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>1</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL2000112X">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL2000112X</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL2000112X</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -819,7 +819,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_48b4934a-5154-4f3e-955e-de103d03fcb5">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9547bf6a-3656-47c9-9f44-ba536be2f5f5">
               <gml:surfaceMember>
@@ -837,7 +837,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a04bc7ba-c81c-45e1-b77a-67a1f81c14f0">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_488de1fc-85d2-43a6-8de3-cdba1943902b">
               <gml:surfaceMember>
@@ -855,7 +855,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_27dcc5e1-1650-4f8b-9fb5-c166f27622af">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3afc3ee2-82af-4c13-9d6a-260312af6dda">
               <gml:surfaceMember>
@@ -873,7 +873,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_6c907d21-f096-41f3-b599-0cd849421c2e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0cc9ee42-6639-49db-a9f8-317438ede805">
               <gml:surfaceMember>
@@ -891,7 +891,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_a8ca4b63-5db9-46db-a0c5-a259fcbcda20">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e64be094-2e88-4bd0-a0d0-813338619d88">
               <gml:surfaceMember>
@@ -909,7 +909,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_7a71b00d-eeb6-4df8-a5a6-f567768138a5">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f267b751-2dba-4664-bebc-32bbdcaa6ea8">
               <gml:surfaceMember>
@@ -926,16 +926,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000w0M">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000w0M</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000w0M</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -1015,7 +1015,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_4afebec3-1995-4926-89bf-2be46a93cbdb">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_23059aac-3ae4-4704-a52f-8470006e3dff">
               <gml:surfaceMember>
@@ -1033,7 +1033,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_6c9155c4-e745-40ec-9f5c-81c71b91ad95">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9f3e9b16-70d2-4b67-9820-4ec46fc94f3f">
               <gml:surfaceMember>
@@ -1051,7 +1051,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_0684f626-1584-424d-9701-1fc6c49327d3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_21b5547b-9220-44ea-afe3-6ecdf9f9f86f">
               <gml:surfaceMember>
@@ -1069,7 +1069,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9d08dd82-4df3-46e2-bdcb-a38535e5e56a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_671859f6-8171-492b-9fdd-4ba118fddcb9">
               <gml:surfaceMember>
@@ -1087,7 +1087,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_720d1873-800c-4736-8674-99a4940ab004">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1e3f7b44-e876-4f0d-861c-5198b57500c8">
               <gml:surfaceMember>
@@ -1105,7 +1105,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2c912e68-d8ad-4080-b0b9-e241914a48d9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_424f2c88-bec3-47bb-b974-fdfb7858f444">
               <gml:surfaceMember>
@@ -1123,7 +1123,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b717c86f-f34a-419e-b136-61cf0d9e93c8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ec78a7a9-9adf-4636-be86-4e5a7475d410">
               <gml:surfaceMember>
@@ -1141,7 +1141,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_1cf3dd93-802f-4987-8f44-6f0890e49514">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2aa9c2f3-e0fe-4b03-9fed-86bcb1a9eadc">
               <gml:surfaceMember>
@@ -1159,7 +1159,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_75f6c05f-3e22-43d4-bd71-6eb7f5734fb4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_acbfa64a-fc63-4107-aa66-a29511efe497">
               <gml:surfaceMember>
@@ -1177,7 +1177,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_05eee043-1dd7-4cfd-b731-97ecad09842e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_edfa9617-95fd-4fbf-9be0-b1971d8831b8">
               <gml:surfaceMember>
@@ -1194,34 +1194,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>24</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>24</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010vu">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010vu</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010vu</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -1277,7 +1277,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_1d81117b-caf7-4675-a2d9-f8ddf49c8a00">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1c2b5d4a-093f-428e-b466-3d91a87d5432">
               <gml:surfaceMember>
@@ -1295,7 +1295,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_dea99091-99df-492e-9a9e-078563ab1368">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f24df79c-fa0c-4dc6-9a87-0cedb4033431">
               <gml:surfaceMember>
@@ -1313,7 +1313,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_107b4ce2-0fb6-4b8e-b7e4-cddd8ac0308d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5a52660e-9f82-43ad-a933-4ddba04303fd">
               <gml:surfaceMember>
@@ -1331,7 +1331,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5083078e-0e7b-429c-867a-4d6051dc6834">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_7795b523-62ca-4783-938d-7cdeb1c4e856">
               <gml:surfaceMember>
@@ -1349,7 +1349,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_c3453d24-25bc-419f-97e0-f4f1b893853f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_731669c0-b504-4daf-9fd7-e77c83032071">
               <gml:surfaceMember>
@@ -1367,7 +1367,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_a2ff44fa-a584-4613-8241-2c0f3830cd87">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a382f2da-2c8a-4e0b-a534-f92c65fa96fd">
               <gml:surfaceMember>
@@ -1384,16 +1384,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xDx">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xDx</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xDx</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -1449,7 +1449,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ff862057-bbe7-426a-8a1b-5e3059a2748a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5e1a7296-652f-4ea8-9aaf-d4f9d17b974e">
               <gml:surfaceMember>
@@ -1467,7 +1467,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2cca6c0b-35ff-4752-8b69-818c07af3d7b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8b2da0b0-938f-465a-8ea1-9ccc5b850440">
               <gml:surfaceMember>
@@ -1485,7 +1485,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_4d150c42-26f6-4654-803e-8279b3700c2a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2c8e9a8f-22bb-427e-9e77-af01eb59e41c">
               <gml:surfaceMember>
@@ -1503,7 +1503,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7c9be206-abaf-47e7-bed5-2cd94c9205d2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_584bfda7-eec7-4584-8998-d0a4af046a80">
               <gml:surfaceMember>
@@ -1521,7 +1521,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_bde162c7-7e5b-46db-9bab-009045490d04">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a88ad0d4-843b-4b63-a172-ce9010283bd1">
               <gml:surfaceMember>
@@ -1539,7 +1539,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_76f85efd-80e1-4b2e-837b-053a676df151">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b5274c8e-964a-4061-b436-2e67cb8d7ea2">
               <gml:surfaceMember>
@@ -1556,34 +1556,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>36</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>36</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wqO">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wqO</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wqO</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -1651,7 +1651,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_883baecc-8779-4cc3-8fac-220b9a1a3cb2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e35eeeeb-bdf7-4bf1-a28b-68c224caa6f8">
               <gml:surfaceMember>
@@ -1669,7 +1669,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_0ea3ba6b-9daa-4b76-92f8-02bdf24306b3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_36bbe6e4-0fb0-4309-8650-d1e3b9c61a0d">
               <gml:surfaceMember>
@@ -1687,7 +1687,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_001eefcf-30ab-43db-b8c9-fcc5bc1756dd">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_42529ec9-0791-44a6-bc7b-285b0447a6e5">
               <gml:surfaceMember>
@@ -1705,7 +1705,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5a39dca8-d945-4f55-849f-fa9e85f25213">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2ee5c10d-754a-40bc-8639-219def05b1e3">
               <gml:surfaceMember>
@@ -1723,7 +1723,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_91132a9d-60b8-4097-95db-9d0d4359fdfa">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2dd30b31-7d69-472e-ad61-033700b196d5">
               <gml:surfaceMember>
@@ -1741,7 +1741,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7b400cd3-7201-4cc3-b473-c31812fe3031">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f59b81e4-f25f-472c-a0e5-73c8eadfacf4">
               <gml:surfaceMember>
@@ -1759,7 +1759,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_a7512dfb-2686-4d58-a96b-6dd0f5f25383">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_42e2e912-f6c2-4923-80c6-4d949dd5aed2">
               <gml:surfaceMember>
@@ -1777,7 +1777,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_bbf3d4ff-910a-46ae-b1fe-e5ee771095d9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e4032712-db48-42eb-9a19-a96cfc0b48d8">
               <gml:surfaceMember>
@@ -1794,34 +1794,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>25</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>25</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000vwi">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000vwi</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000vwi</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -1877,7 +1877,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_f971e821-0030-4bea-b714-8def6d2af4ac">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_adea2980-0811-473a-8b76-27a169ba216a">
               <gml:surfaceMember>
@@ -1895,7 +1895,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2a4f6968-41e4-446e-b5ba-a78b17ba5102">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5e23cac7-6b0e-40bc-a383-ebace5ded8dd">
               <gml:surfaceMember>
@@ -1913,7 +1913,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8b2c2d65-e70f-4a26-b8c9-13416415093d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1b7be4fc-52ef-41ca-be4b-dd1c6d881414">
               <gml:surfaceMember>
@@ -1931,7 +1931,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_417176f6-88e9-4d2b-a6ec-0d3c58f48d99">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_951466af-f2d5-43b9-852d-a1a715ae323c">
               <gml:surfaceMember>
@@ -1949,7 +1949,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_31b8f270-4016-4f4e-a5bf-c71eba640358">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_378f8984-0c6b-43a7-8ab4-ded3979f22f3">
               <gml:surfaceMember>
@@ -1967,7 +1967,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_10889490-2f95-466a-ba49-e3798798c8ab">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8f580a54-81a5-4763-a85a-364a70263a79">
               <gml:surfaceMember>
@@ -1984,34 +1984,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000x0l">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000x0l</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000x0l</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -2067,7 +2067,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_29503c6b-77df-4c55-a788-60a33a50daf2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4d71c014-ec91-42ae-80e1-91deddd1977f">
               <gml:surfaceMember>
@@ -2085,7 +2085,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_945e8e43-b487-4938-845d-184403a43e4a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0612a3c6-8f3e-4538-9aab-87224cf80156">
               <gml:surfaceMember>
@@ -2103,7 +2103,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_35acae24-65f4-4fee-9a77-162e56b6175a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_87cd4375-91cb-46ab-a343-f454e855da54">
               <gml:surfaceMember>
@@ -2121,7 +2121,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_25bdde65-7bae-4176-b311-37386c94ccf1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_82eca5b7-f098-4231-b643-8cef87be050b">
               <gml:surfaceMember>
@@ -2139,7 +2139,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_4a934eef-c023-44ad-a700-e406168f8cf1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f0bdb476-a244-4cff-a57f-cdb7a06817f0">
               <gml:surfaceMember>
@@ -2157,7 +2157,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_207c38ac-16a8-4f7c-924d-3db713755471">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a3925875-1ef1-4c1f-9bb1-864d1a0e2e5a">
               <gml:surfaceMember>
@@ -2174,34 +2174,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>36</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>36</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010TH">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010TH</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010TH</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -2263,7 +2263,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_4a7269a2-5ad9-43ad-82be-9da046f7e862">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9b57a416-523f-4b9d-b989-43f55b0f9d0f">
               <gml:surfaceMember>
@@ -2281,7 +2281,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_96fa00be-4354-4413-a3d1-3b57f8cc1b82">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_7b296f85-94ac-4d9b-bd85-8811d66bba5d">
               <gml:surfaceMember>
@@ -2299,7 +2299,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_1a10937f-c6bc-4e40-bdd1-b5fefe78352a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e0a44d3d-532e-42ee-81e0-a4e82dcd62f6">
               <gml:surfaceMember>
@@ -2317,7 +2317,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2c7d10cb-f618-413f-a06a-8fb37b7a75f1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_abe3f114-1493-4506-b228-001a93cb656a">
               <gml:surfaceMember>
@@ -2335,7 +2335,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_fd3d14e1-8a06-4775-8790-81a349fcd9db">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6b3a5010-14cd-49ec-9797-4a9c7559de4e">
               <gml:surfaceMember>
@@ -2353,7 +2353,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_cb19f6f4-9a13-4d8e-87e8-6c24626ae30c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3b44dd00-4eda-44b0-a549-65263221a43a">
               <gml:surfaceMember>
@@ -2371,7 +2371,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_d400d217-c811-4a02-b317-9e0dc8103516">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c897c2df-e403-49a2-8125-27a7e430876d">
               <gml:surfaceMember>
@@ -2388,16 +2388,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wsB">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wsB</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wsB</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -2459,7 +2459,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_faee3030-5f93-4b1c-822f-d1689514da09">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6b5c5fdc-e9b2-490e-a337-66970b94e958">
               <gml:surfaceMember>
@@ -2477,7 +2477,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8f7ca1f8-9a18-4533-acb3-923d6ab36d24">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_386de217-a476-4fba-b0a1-5db411f0c707">
               <gml:surfaceMember>
@@ -2495,7 +2495,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_088898c3-3426-461f-bfec-0f872dd3cfc4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1b8db2af-933f-495f-bc5d-22071317cb1f">
               <gml:surfaceMember>
@@ -2513,7 +2513,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_45a1d938-312a-4cb2-981d-3b3a5736398e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1f9ad417-b5f0-42ef-9499-abde519800f1">
               <gml:surfaceMember>
@@ -2531,7 +2531,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_64c7b9e1-4760-4432-9504-8a6cf67bd26e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_abb7e2f9-2d6d-4427-8d4d-9105cbd1a81f">
               <gml:surfaceMember>
@@ -2549,7 +2549,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_f988e290-74cf-4c6d-b06f-ef3e3335b47c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_18dbba8c-8b30-4ec6-bb4c-79c2d314ed8a">
               <gml:surfaceMember>
@@ -2567,7 +2567,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_036e2174-c899-4cf8-a79b-314363606ccc">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_89f4719a-94c7-4807-898f-08d3acdb9f60">
               <gml:surfaceMember>
@@ -2584,16 +2584,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xCQ">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xCQ</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xCQ</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -2649,7 +2649,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_af825c2b-ad83-4cc4-87f0-06301fad4615">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_15e4d01b-d4c8-4ba0-8dc0-afbdb06d5726">
               <gml:surfaceMember>
@@ -2667,7 +2667,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_d4bd0633-3197-47a9-a555-f7ea44a41ab3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_781ecd2e-cb92-48c1-b8b8-c2fa003e4b0c">
               <gml:surfaceMember>
@@ -2685,7 +2685,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9dc54173-bc39-4d43-bfb2-9040f29ecdf6">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c038b7bc-93a1-4f55-b1d5-43281dbc170c">
               <gml:surfaceMember>
@@ -2703,7 +2703,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_82a01e5b-c9b2-4a8f-ba92-6dc55963a820">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b1bdf96b-18cf-4608-a718-7fc24186d05c">
               <gml:surfaceMember>
@@ -2721,7 +2721,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_7621134a-d95a-43f5-82dc-228f05d4e0b4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_48d190c7-1c61-4c7e-aee6-770577075a70">
               <gml:surfaceMember>
@@ -2739,7 +2739,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_9c800e7e-7f68-43d9-9756-995e22b9335e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0817eb8d-4bcf-40d3-b3c4-3d04c64b29e2">
               <gml:surfaceMember>
@@ -2756,34 +2756,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>24</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>24</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW28AL0000726Z">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW28AL0000726Z</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW28AL0000726Z</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -2842,7 +2842,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5781ca81-7989-41ac-b331-2359810bb04a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f603815d-53c2-4c66-85ca-99a00b384c68">
               <gml:surfaceMember>
@@ -2860,7 +2860,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ea664e35-06c4-4a2e-bc39-0928d31953c2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8ed84c28-913b-4d9c-bee5-a10ce747614f">
               <gml:surfaceMember>
@@ -2878,7 +2878,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8b54c4b3-37ba-425e-bd6f-c587cd4f19f7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ce8a88d7-6612-45b5-a47e-79267cf480a0">
               <gml:surfaceMember>
@@ -2896,7 +2896,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7acf85a7-72af-4646-9a05-51fc251c5f99">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e033e383-4b5a-4b0c-8536-c23062e2be9b">
               <gml:surfaceMember>
@@ -2914,7 +2914,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_f0681a21-d2ef-4d12-b564-62189a0e1bdb">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f67afd1f-0121-49d9-a0a7-c4f3cbb345d9">
               <gml:surfaceMember>
@@ -2932,7 +2932,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_d68792bc-1267-4837-924b-9b1f471063d3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2b9e558d-7dc2-4543-888d-dbf35fdeab34">
               <gml:surfaceMember>
@@ -2950,7 +2950,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_193ce1ac-af7a-45fa-94ce-2ca249c69d53">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_38392113-b93a-4686-bf98-cac6db9e68f6">
               <gml:surfaceMember>
@@ -2968,7 +2968,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_efdbda96-bc2f-46d2-8f45-e4fa353cee6a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_21d9c7b6-19be-472d-affb-d1b6c14e652e">
               <gml:surfaceMember>
@@ -2986,7 +2986,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_286533c4-782e-4584-9cf5-eb6690379da2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1edd0461-6c9e-4e70-9dbd-6b0432dd2ea8">
               <gml:surfaceMember>
@@ -3003,16 +3003,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wZG">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wZG</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wZG</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -3068,7 +3068,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_78437e92-77a0-4ba0-b3a6-672d560b53c4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a0dde56f-f6bb-4e22-a028-cd14ab47a78e">
               <gml:surfaceMember>
@@ -3086,7 +3086,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_81faa400-bfd8-4fec-a75f-2af495ac0dcd">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b2723374-002f-4b73-ae50-961d755f07e6">
               <gml:surfaceMember>
@@ -3104,7 +3104,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e5a1ad5e-1e8b-4b25-ae06-234a47f78c76">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f602e4dd-8ac0-432d-9eab-aeca5099402e">
               <gml:surfaceMember>
@@ -3122,7 +3122,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7161631d-4c63-420e-a0f1-29cec935bc5b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2d12a2ad-3386-48ed-bb0a-54f2dda75893">
               <gml:surfaceMember>
@@ -3140,7 +3140,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_c5ea6a3f-5334-47f6-83e0-d1935de5a8fb">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5562d668-f43a-4909-926d-7f442e227060">
               <gml:surfaceMember>
@@ -3158,7 +3158,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_80ce0554-68d4-4499-bb78-31d40fbc1e13">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_17001867-5f60-47a0-af31-a7780f02eef0">
               <gml:surfaceMember>
@@ -3175,34 +3175,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>28</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>28</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000waa">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000waa</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000waa</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -3264,7 +3264,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ac28858f-b328-404c-9337-5e965f49118a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b03e1ab4-3813-4d9d-96ea-0aa231a0070d">
               <gml:surfaceMember>
@@ -3282,7 +3282,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2e34f630-9175-4d8c-864d-c60a5305654f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_79fd9374-a386-4eac-9eb6-82ec8ca677ed">
               <gml:surfaceMember>
@@ -3300,7 +3300,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9232fd3f-60b8-4746-8771-94b927cb7a42">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_feef456b-01d3-4b1e-a150-69e078d2f6d3">
               <gml:surfaceMember>
@@ -3318,7 +3318,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7be58900-2187-41f4-a322-f81770e27547">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3eba01bd-e049-4e7c-92c2-87289e72b2fd">
               <gml:surfaceMember>
@@ -3336,7 +3336,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_1436eaa5-0ed9-407c-aa71-ea96be1caa7e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f0071250-373d-4801-b367-0722aacb69a5">
               <gml:surfaceMember>
@@ -3354,7 +3354,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_25bcc76e-e7f8-4c38-b551-d7c6a1efade9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_7a68d40f-aa36-4ab9-9ec0-3ab8407d8127">
               <gml:surfaceMember>
@@ -3372,7 +3372,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_98e86e97-8e5d-4555-8e8c-e5984b9dbb45">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_91b4f74f-b903-4b18-a554-f01c8edb8e78">
               <gml:surfaceMember>
@@ -3389,41 +3389,41 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>20</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>20</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wlt">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wlt</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wlt</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_1010</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_f3cd0cc5-5654-4625-a470-86faa1bcdf63">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -3501,7 +3501,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d56a5f2b-4b45-4b4b-8571-143fd9901bfb">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e8efe02d-211a-425d-b203-9c118e5117b7">
                   <gml:surfaceMember>
@@ -3519,7 +3519,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_bd764b10-b54c-428b-a15b-502c639c05bb">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a2db00c9-93e4-4607-93c5-9d2a2c6a879b">
                   <gml:surfaceMember>
@@ -3537,7 +3537,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ab9db6c6-b4da-42d7-acff-2aeb05c07d19">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1b81c4f3-7140-469a-a630-4f763a9becc5">
                   <gml:surfaceMember>
@@ -3555,7 +3555,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_9f982239-c4e9-46fa-a993-b39b2345037d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_747c183d-7410-4cfa-9085-5eae17466692">
                   <gml:surfaceMember>
@@ -3573,7 +3573,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_3d472dcb-4b8c-4625-93f8-81e5adc218a1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_96116362-aec6-4523-bfbc-1fefe6e7c35d">
                   <gml:surfaceMember>
@@ -3591,7 +3591,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_da1e170a-ac61-4b27-bf9c-149d63b6422d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_995a6b8b-ff9a-4f9f-8a01-9b288e533542">
                   <gml:surfaceMember>
@@ -3609,7 +3609,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_ceb3e1b7-0975-43ce-87cf-562776240f58">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_cb676c58-a05a-4059-b1ec-898624d35b8c">
                   <gml:surfaceMember>
@@ -3627,7 +3627,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_de8e989d-2724-4ddf-9202-c97a788a0ae5">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_307ebf76-4076-451e-a095-3210745faf6b">
                   <gml:surfaceMember>
@@ -3645,7 +3645,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_30546580-9570-4825-9f01-7989de0fcf72">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -3663,7 +3663,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -3681,7 +3681,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_1d3522b8-ad7d-4cc8-8afb-86c8878dd42d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -3699,7 +3699,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -3719,7 +3719,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46509970">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -3773,7 +3773,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_63712df4-b509-4dc3-a2a8-0cb5247c8728">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_91ec10df-4814-45b6-8cf3-9951b897c95f">
                   <gml:surfaceMember>
@@ -3791,7 +3791,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_498199e4-bfa7-44a8-ae2e-9f8fed5653a8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1094359d-4c71-4c30-86f4-1ad8a627dc5f">
                   <gml:surfaceMember>
@@ -3809,7 +3809,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_6002f8cd-e37b-480a-a265-27cbedf00cb9">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_00b937bd-c4ca-47bb-8b61-d0e0443762dc">
                   <gml:surfaceMember>
@@ -3827,7 +3827,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_338f909b-de16-4dca-b150-a46e4fdcae59">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_950f388b-551c-4031-844d-c82e2eac6621">
                   <gml:surfaceMember>
@@ -3845,7 +3845,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_42ebda7d-c82e-4a65-95c1-cfff076a45e2">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_28fdee0d-a21b-4a1c-95fe-95c62339c832">
                   <gml:surfaceMember>
@@ -3863,7 +3863,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a309f48f-2258-414d-a7e6-1780f48d6480">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -3881,7 +3881,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -3910,7 +3910,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46509971">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -3962,7 +3962,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_43165982-a222-473c-a5c3-d9665a14351e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e6cdc1eb-caee-45f2-9d54-330d0c1ab45e">
                   <gml:surfaceMember>
@@ -3980,7 +3980,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c5862de1-4856-4a2b-8bd6-93162aebec2b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_90035c66-da6c-4c82-911c-e5fd2108de02">
                   <gml:surfaceMember>
@@ -3998,7 +3998,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_37b3658d-3841-47d9-b701-0279ca51868b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3cb11901-4f91-42d5-bdf7-f2331bb3f469">
                   <gml:surfaceMember>
@@ -4016,7 +4016,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_bcec5062-352d-494d-9bdf-3f8f048af329">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_5e8a4397-89da-40fa-8f9c-f8db65ec12ad">
                   <gml:surfaceMember>
@@ -4034,7 +4034,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -4052,7 +4052,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -4071,34 +4071,34 @@
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>28</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>28</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xKd">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xKd</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xKd</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -4154,7 +4154,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_49681295-9225-4115-9049-c0636b2d92ee">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_dbb2e186-3783-438c-b455-9c0caaa0cc5f">
               <gml:surfaceMember>
@@ -4172,7 +4172,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8298f45e-a3f9-4189-8fe0-18d45c1d7e37">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_96b8f707-0a9f-46ba-afe3-97efefd5b0f6">
               <gml:surfaceMember>
@@ -4190,7 +4190,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_88e90110-2a99-455a-97b6-ad704c41f9b2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_06d2ffc5-8c54-40e6-909e-9f1238d82279">
               <gml:surfaceMember>
@@ -4208,7 +4208,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_57cb80a9-46a4-43fb-b267-6fae49afc4a2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1c8c0684-2945-4c04-a770-b5ac0b01dfdd">
               <gml:surfaceMember>
@@ -4226,7 +4226,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_675b68d5-a4fd-454d-b9fe-3c7647daeef7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_bd19ad05-194e-4b25-9172-91740c89943c">
               <gml:surfaceMember>
@@ -4244,7 +4244,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_d33d286f-d457-414f-9e75-a74690594fac">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1b55cce4-3253-4908-bd7e-59b2f0f3b86f">
               <gml:surfaceMember>
@@ -4261,34 +4261,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>8</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>8</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010Zg">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010Zg</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010Zg</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -4344,7 +4344,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_517ef784-ede0-4e68-8312-1793c00bc38d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_cedaa066-b45d-47db-be18-3724c30fb287">
               <gml:surfaceMember>
@@ -4362,7 +4362,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_69b761e3-31b1-40b5-bb1f-0bf8661f19e6">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6adce925-e77c-4925-96bb-c62746d4d44e">
               <gml:surfaceMember>
@@ -4380,7 +4380,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ae4ca658-8a0b-4b34-954b-f5049db91ff4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_881bc1a4-2303-4bdf-ac31-228a3586cf90">
               <gml:surfaceMember>
@@ -4398,7 +4398,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b766b7bd-f0e2-4031-b33a-60885fb339ec">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3f8d53ec-335e-4648-aede-b57b3e9c5be1">
               <gml:surfaceMember>
@@ -4416,7 +4416,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_249a0491-5a4c-4d32-8746-3e28e1a3a158">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_911553fc-4cd2-4f24-a6b8-473b6f958a22">
               <gml:surfaceMember>
@@ -4434,7 +4434,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_b7824628-5609-47d8-910e-88ee24750754">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_58d004af-9116-4c08-8f44-593159be415d">
               <gml:surfaceMember>
@@ -4451,16 +4451,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wyF">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wyF</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wyF</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -4528,7 +4528,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_87316cfd-d9e2-4416-896b-8ad7ec95582f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_cc5a2b65-a619-4482-9574-ac9984de45a8">
               <gml:surfaceMember>
@@ -4546,7 +4546,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_06a95235-c476-485d-9db3-847c388606a2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a5c5e298-841a-4014-92f9-e15377fe54f9">
               <gml:surfaceMember>
@@ -4564,7 +4564,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_813dfcc3-1c9c-4fcc-ac8e-b1381380df6e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_555ad320-b5ae-4bb6-bf11-a8ac4861c5e3">
               <gml:surfaceMember>
@@ -4582,7 +4582,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2b2b5cda-1898-4849-9199-4fa0b300f6b5">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9fa06a6f-de42-4dcb-90a6-fa81db392950">
               <gml:surfaceMember>
@@ -4600,7 +4600,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_39850944-2657-4978-b0af-2917fc20452a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8e7668e7-1662-4ffb-acd9-ea18042798cb">
               <gml:surfaceMember>
@@ -4618,7 +4618,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_850f1455-2877-450c-a644-c49b6f5dc4b9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_15b87e2a-a076-4f32-b9bd-35e29f84797a">
               <gml:surfaceMember>
@@ -4636,7 +4636,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_3ccc29d5-27e0-4862-823c-c3ea58800d22">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_7fb69e43-6d3f-4fad-a42a-656fc3586cd6">
               <gml:surfaceMember>
@@ -4654,7 +4654,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_47efec3d-5560-49dd-8412-4df24eeb2242">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6d963793-1d1b-4f2e-bb4d-d1ad1a9da7e1">
               <gml:surfaceMember>
@@ -4671,34 +4671,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>10</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>10</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wl7">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wl7</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wl7</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -4754,7 +4754,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_504bd581-a75f-4436-93ee-e72366bc4d6a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ddb74775-77a1-4f62-b457-17fa40b6cefe">
               <gml:surfaceMember>
@@ -4772,7 +4772,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_091c3535-ba4c-41b3-966a-7531c32c08fe">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_de68e670-e1fe-4c2d-9646-8756d5a9938c">
               <gml:surfaceMember>
@@ -4790,7 +4790,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_82bd81c8-0559-441d-9c92-111e98f59491">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0e4414d8-fcab-441f-af05-4964a6996ebd">
               <gml:surfaceMember>
@@ -4808,7 +4808,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_32168b84-eb14-4b9f-aa56-685251f312a9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_193258ba-794f-47f7-9dcb-1b96511404bf">
               <gml:surfaceMember>
@@ -4826,7 +4826,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_81668d7b-1d4d-428b-86d0-7fc24bc0b9dd">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_49ec21c7-853d-46a0-b521-c66166b6a827">
               <gml:surfaceMember>
@@ -4844,7 +4844,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_3c71d60e-955a-45c3-8fee-4182dfe63746">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a03643e7-ecdf-4bec-86ee-672367ed01f5">
               <gml:surfaceMember>
@@ -4861,34 +4861,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW28AL0000726n">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW28AL0000726n</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW28AL0000726n</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -4947,7 +4947,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_d1282dac-398c-4781-85ef-a6b9181c7c97">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f3da5a5b-03b9-46da-ad62-f209e2f5f753">
               <gml:surfaceMember>
@@ -4965,7 +4965,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_bae80141-d15e-4a0d-a16e-92599cf82077">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f3a03e61-6dd0-4af0-84b3-60787a250618">
               <gml:surfaceMember>
@@ -4983,7 +4983,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_cae2da3c-0a9e-499e-b1ac-574bad3a6109">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_19a780c5-4b32-454e-bced-22c297d000ae">
               <gml:surfaceMember>
@@ -5001,7 +5001,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8cca54a9-9da4-448e-a308-fcb9f5e9dcb4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_61aefbe4-0981-419e-a682-7c684e8fa8fe">
               <gml:surfaceMember>
@@ -5019,7 +5019,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5f89a504-9dbc-4d26-83cc-f142b98f5be9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_79a40aa9-a8bb-4ba5-94e1-2b99eee8aae4">
               <gml:surfaceMember>
@@ -5037,7 +5037,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_16b13eba-3ea5-4f5e-903a-cd18878da68e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_90052ad0-680f-4dc6-be4c-bb42922ac09f">
               <gml:surfaceMember>
@@ -5055,7 +5055,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_ff854c43-6a6e-4eee-a7a6-5e05a9918859">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0817c8fc-abf5-4ec2-856d-47843e3bd1dd">
               <gml:surfaceMember>
@@ -5073,7 +5073,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_029e6b89-f423-45b6-8c4b-0f634fd22a70">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_67571281-6a28-4560-b81e-663dbe035c7b">
               <gml:surfaceMember>
@@ -5091,7 +5091,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_166cf72d-3fd0-42d5-b08b-a6b5f7b7b7a8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_bfdd75ff-32fe-4be9-b977-9c6d0a418e62">
               <gml:surfaceMember>
@@ -5108,16 +5108,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000w4Y">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000w4Y</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000w4Y</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -5179,7 +5179,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a77f7277-177b-4c45-8f35-947abc193777">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_aeba69e2-3ce4-4d61-8279-5ca4fd0fe72f">
               <gml:surfaceMember>
@@ -5197,7 +5197,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7d59c1ae-ec3e-4aac-be24-82d1beeb932b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_78572faf-ecf8-4220-b4e8-baa536ea2f7f">
               <gml:surfaceMember>
@@ -5215,7 +5215,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2bed5256-c8a4-41c4-a445-8efa2a8f6ed3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_52229419-dbaf-43b5-965c-c6a9b0fc8685">
               <gml:surfaceMember>
@@ -5233,7 +5233,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_bc8ad5a6-5d53-4046-a6df-7b557d7953fb">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_629febb9-13db-4382-98ee-a00971c6d6cc">
               <gml:surfaceMember>
@@ -5251,7 +5251,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_19ca9b7e-7873-4e88-966b-6651cc34752b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_49ddff5c-17de-4e8d-9468-8f65c2ec0144">
               <gml:surfaceMember>
@@ -5269,7 +5269,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_afc9b29a-5c84-421f-b9da-b6b662a364e1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_caa5c675-d2a1-4476-88f4-505855a12fb2">
               <gml:surfaceMember>
@@ -5287,7 +5287,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_61f1bf20-b18d-4f60-9dbb-84f9ae8ecca8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9ace34a3-10fe-4b1d-98b2-63fca6f1a9c3">
               <gml:surfaceMember>
@@ -5304,34 +5304,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>29</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>29</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000vxb">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000vxb</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000vxb</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -5405,7 +5405,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_547f42d5-1ef6-4d87-9fbb-7979f155024b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d09928bc-9bdc-4e21-9d28-a06d8883e6c0">
               <gml:surfaceMember>
@@ -5423,7 +5423,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_c4c45797-23e4-4a2e-84ee-8d2939cfcd91">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_82a27868-74e0-4bb2-b16b-7e381572b939">
               <gml:surfaceMember>
@@ -5441,7 +5441,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e0e10668-bb4b-401d-8dcf-7efbb9ca0d61">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e6d2426b-4536-468c-a879-a595f33d747d">
               <gml:surfaceMember>
@@ -5459,7 +5459,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7b104409-4f90-4c7e-8780-cf6c232a86b9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9821cb1c-7bc2-4754-9c99-c4aaa53a9f7d">
               <gml:surfaceMember>
@@ -5477,7 +5477,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_49d527df-c077-414a-b09f-fd5c9ef92952">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4e11498f-f91e-40dd-91a2-81ca3dbcb564">
               <gml:surfaceMember>
@@ -5495,7 +5495,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_46bc5454-ef1a-434f-9b52-a781fcca5830">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5a3b08a6-c6ce-457e-90da-11d96df2f7eb">
               <gml:surfaceMember>
@@ -5513,7 +5513,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_67160078-d3a9-4305-a349-78c6ce68ddac">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_73b644fb-2294-4685-87ae-3c1cb29fb3b5">
               <gml:surfaceMember>
@@ -5531,7 +5531,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_e99bd607-8e0e-4390-a9a0-1a02b01d5991">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e012307e-3e51-4d1c-8999-4431e75a6f15">
               <gml:surfaceMember>
@@ -5549,7 +5549,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_d0aa65ae-a603-4fac-8bfd-1caa50fa545e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_01de4ac0-0420-46a0-b5f0-84ed99957dc0">
               <gml:surfaceMember>
@@ -5566,34 +5566,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>20</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>20</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW28AL0000726Y">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW28AL0000726Y</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW28AL0000726Y</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -5652,7 +5652,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e25c262a-6d91-49aa-8f5c-eb7bac3f2956">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b446210e-70e2-49d5-a8fb-2ca504c5be29">
               <gml:surfaceMember>
@@ -5670,7 +5670,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2b38e41e-75f1-4bb4-abdc-247a6b7de544">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d4eacc69-e4a0-4c83-a3bd-b383c6d7d429">
               <gml:surfaceMember>
@@ -5688,7 +5688,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ca89163a-8b4a-413a-9e72-c46d0ce897ed">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_50de5ca0-06c5-49b4-a363-4c4ddd695f5d">
               <gml:surfaceMember>
@@ -5706,7 +5706,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9bc1d979-306e-40fb-b58f-b0cfa9fd46be">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1ac11d31-d54f-45ca-82a5-2481a1f0af0e">
               <gml:surfaceMember>
@@ -5724,7 +5724,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a4bd1d5d-338c-4364-976f-1d10ea5bae44">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4e5e43e8-64f4-4e2e-bfa4-8f1a08769ada">
               <gml:surfaceMember>
@@ -5742,7 +5742,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8d3fa012-283c-463f-aadb-de5898269bd8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f9bc7101-2204-4c3b-a006-bb0fec34178e">
               <gml:surfaceMember>
@@ -5760,7 +5760,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_39569b5d-52a7-4bda-ac36-8c35b6824d0c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5dcfc5d6-c8e2-41a0-8a68-79b2caeb6a82">
               <gml:surfaceMember>
@@ -5778,7 +5778,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_6b5cf114-0191-4d9f-a75a-03d6db13503b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_98f6b385-df68-45bb-b97b-783c04ed05a7">
               <gml:surfaceMember>
@@ -5796,7 +5796,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_aa75d3c9-2df8-4c64-ad22-d28f3488d0f7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a4c74eec-58b1-416f-bd5d-2435242cbff9">
               <gml:surfaceMember>
@@ -5813,16 +5813,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wFm">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wFm</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wFm</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -5884,7 +5884,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_eb30ac75-7921-482a-be7c-35853ea68a3c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d08eb7c9-b06a-4f45-85a4-7f6c44c33a6f">
               <gml:surfaceMember>
@@ -5902,7 +5902,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_d0ba8434-6bd1-4686-bc22-93338ee5ff14">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b24db3b6-5d08-4583-a1ac-8b8db4b591d4">
               <gml:surfaceMember>
@@ -5920,7 +5920,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_1d7fe4bb-d435-42cc-b399-c54f0cc6bd77">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2e4a1def-fdce-4865-abb4-c9f8070e30bb">
               <gml:surfaceMember>
@@ -5938,7 +5938,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_15b39422-8512-4b79-be34-1397025a3874">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_df7600a9-a970-4df4-8c17-4c90e70aacd8">
               <gml:surfaceMember>
@@ -5956,7 +5956,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e756f611-f9f7-4367-a1e1-e5b419053dd9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ca00dec6-d1dd-4db5-a87a-486a1de90c15">
               <gml:surfaceMember>
@@ -5974,7 +5974,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_6c490e38-5a2c-4cc6-83df-005538ab4578">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_50f3d476-0062-44e3-ab94-7ddb26453103">
               <gml:surfaceMember>
@@ -5992,7 +5992,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_f230c55d-4d27-44e1-81d5-15214e593c8d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c864fd90-21fa-4ee2-a829-7fd0c04bcbe1">
               <gml:surfaceMember>
@@ -6009,34 +6009,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>9997</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>9997</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000vnp">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000vnp</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000vnp</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -6105,7 +6105,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_fa4962be-44a3-4231-bf5d-37109024bf95">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_028191e2-d297-440a-9774-b423f837a245">
               <gml:surfaceMember>
@@ -6123,7 +6123,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7101159b-8ded-4db0-969f-b515064c778d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e69afabe-2ad7-41bd-9bfe-10c654ca659f">
               <gml:surfaceMember>
@@ -6141,7 +6141,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e31c07d7-a899-41d1-84a1-4bb7d3406d87">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8d2a2e24-a54c-4a7e-8fa1-051851f00115">
               <gml:surfaceMember>
@@ -6159,7 +6159,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_26d0e581-be9b-45c0-b68a-ab8899958259">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9ae73850-6f0d-4d32-b718-3a136b48d1a8">
               <gml:surfaceMember>
@@ -6177,7 +6177,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_32cc9c11-2b20-4d42-b436-6ea67ed9df57">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2b980b96-597f-4961-b774-28702ed68f18">
               <gml:surfaceMember>
@@ -6195,7 +6195,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_31e44941-a31a-4240-8a46-9085b02aadea">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c0e5b713-f379-443f-9fee-8ccb413b8e33">
               <gml:surfaceMember>
@@ -6213,7 +6213,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_fa72e896-9638-47f9-9e8a-12c53b010dfa">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_71548bf9-3a8f-42fd-946f-7c0c0e6658fb">
               <gml:surfaceMember>
@@ -6231,7 +6231,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_b1eed37d-b3d3-49f8-a8f2-056940db37d3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3216f8f7-c731-414a-b3a6-a8e84d4a9f87">
               <gml:surfaceMember>
@@ -6249,7 +6249,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_fd196a7b-812b-4cb1-9622-6db2e57a8f07">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6e2734e9-ceb1-4039-b3e8-5cf72804ca1b">
               <gml:surfaceMember>
@@ -6266,34 +6266,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>31</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>31</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wy5">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wy5</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wy5</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -6361,7 +6361,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_0ff4da3c-f0be-4bef-9c2b-3cd0160a4336">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b749ad42-adb2-47de-b7e4-dc44def9b291">
               <gml:surfaceMember>
@@ -6379,7 +6379,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_be1c7b30-44d1-45fb-960a-4b597f305ee7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_96ca1270-3c7e-40aa-a4a5-199da7d3252c">
               <gml:surfaceMember>
@@ -6397,7 +6397,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_0a2e76fc-6a85-444d-99e6-7ee51701d847">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3879a722-bb1f-4c73-a838-6794bd81e0a0">
               <gml:surfaceMember>
@@ -6415,7 +6415,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_92b012fb-fca0-43ea-889e-6583d31f0d30">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c500f590-8b43-4489-b79f-10128bd1b359">
               <gml:surfaceMember>
@@ -6433,7 +6433,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a1ad968a-c36e-4e7f-98bd-38f854401b41">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_220a7c19-8d5c-4be7-bc10-907faa6395be">
               <gml:surfaceMember>
@@ -6451,7 +6451,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8b668ad4-3be7-4dd1-8e72-951c50d51284">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5bd73572-b6bb-43e0-a219-b095d7acc0aa">
               <gml:surfaceMember>
@@ -6469,7 +6469,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_c7537944-a549-4a88-9eba-0f438831578e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9b564f07-8495-4153-95b3-92f8a17e8835">
               <gml:surfaceMember>
@@ -6487,7 +6487,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_bcbdfd0f-e244-4cb6-a552-a1785a8fe419">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_56eaa725-ca0d-4668-b9f3-0237cd35d9f1">
               <gml:surfaceMember>
@@ -6504,34 +6504,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>31</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>31</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wgq">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wgq</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wgq</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -6619,7 +6619,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5ccdb17e-7c4e-443e-9543-e7cc37d786c2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_7f0506dc-8664-4197-b317-b93967fbff68">
               <gml:surfaceMember>
@@ -6637,7 +6637,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_40e8e94a-f384-4237-9fcb-a6ed8b959cc2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8c0d693d-b5e9-4154-9128-243f37070202">
               <gml:surfaceMember>
@@ -6655,7 +6655,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_64dc89df-b114-4876-b56c-a346ecf25e8c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5de6fdf0-dd99-4e7e-bbd7-e509500efb0f">
               <gml:surfaceMember>
@@ -6673,7 +6673,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_f8d66a95-c3cf-46d3-917d-70d1a1caedb1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4e3d6cf7-1acb-4e1f-9c34-da9fa19c1de7">
               <gml:surfaceMember>
@@ -6691,7 +6691,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_02ec118f-547e-4328-916e-90356af94a7e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c1fce0e4-0c0b-4f38-8cab-7a89ef6e5940">
               <gml:surfaceMember>
@@ -6709,7 +6709,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_cf43b23c-ad95-49e3-92d5-aa97e9c1532f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b516f972-d710-4c81-9740-4206dc9e419f">
               <gml:surfaceMember>
@@ -6727,7 +6727,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_64394215-8f95-4ffa-be5b-5c3cace7b7e8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_03018787-1575-4684-9b32-7e1bc7d77079">
               <gml:surfaceMember>
@@ -6745,7 +6745,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_1b5974d8-2f13-4200-a89b-c3f971f98bbd">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8dc7f0fe-3fc6-4ddd-a964-7239f0d5298e">
               <gml:surfaceMember>
@@ -6763,7 +6763,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_03234a09-4b7d-4230-8e09-4efb89ac9ef3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_24f2d9c5-8f85-4714-8794-9fce7bc960f2">
               <gml:surfaceMember>
@@ -6781,7 +6781,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_c62e3ab6-e923-4996-b25d-ce6b625c7832">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4650683c-1388-4da8-a91b-152187ed5079">
               <gml:surfaceMember>
@@ -6799,7 +6799,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_50acc0f4-c0a3-40b7-8882-aac62c8ad655">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_38384b8c-0cf3-4c92-8430-6f1ddb986480">
               <gml:surfaceMember>
@@ -6817,7 +6817,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_b6b05e24-87b1-419d-a4c3-b40b1dc65e31">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_39850548-1ca0-4679-879c-ce2783f7d1c6">
               <gml:surfaceMember>
@@ -6835,7 +6835,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_edcb0f6f-65fa-4f5d-b62f-e6250c1440d1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4d0309d1-52bc-4941-a36e-a6f3c1e6c27f">
               <gml:surfaceMember>
@@ -6852,34 +6852,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>13</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>13</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wl5">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wl5</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wl5</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -6965,7 +6965,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_38078275-81f4-4c37-b7cc-3699ee1248b2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_33994bec-42a9-487d-b370-103148b3b728">
               <gml:surfaceMember>
@@ -6983,7 +6983,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_72d70591-bfed-4c05-a279-beb1553fd731">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6b8cd0ef-defe-4b55-85d1-4527d8ff3f12">
               <gml:surfaceMember>
@@ -7001,7 +7001,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_777bf9a4-cb03-453b-a71e-4104715431ad">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1cdd0afb-9e00-43b3-9efc-e82f969cd57b">
               <gml:surfaceMember>
@@ -7019,7 +7019,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_6b63594b-53df-4ffd-8b54-e2021bde0563">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4287b801-cf00-4fa1-b9dd-d3af3a759b03">
               <gml:surfaceMember>
@@ -7037,7 +7037,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_69a6268a-273e-486b-bba9-58ff2ba1c305">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_947aefc7-7cbd-4634-b33a-fa2acba582da">
               <gml:surfaceMember>
@@ -7055,7 +7055,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_736b4493-8856-4d01-bff2-acb008027a7b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c2f4ef6d-fbdc-4e33-bda6-fd1555faabe5">
               <gml:surfaceMember>
@@ -7073,7 +7073,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_fae2f59c-641e-4e6c-bc6e-63f30ee61438">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4eeda74a-8962-4745-a355-8989be432209">
               <gml:surfaceMember>
@@ -7091,7 +7091,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e1241242-1e15-48f1-a36f-75759a71c6fb">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c8ddb0e9-c695-4db7-a619-28ac924ec023">
               <gml:surfaceMember>
@@ -7109,7 +7109,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_d673e6ec-935f-47f6-9de9-214d455edff0">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_bab9501b-c409-4b13-80dc-285f558c0553">
               <gml:surfaceMember>
@@ -7127,7 +7127,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_768d23b8-b177-4f8c-9d89-477314cbff58">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_7c468da6-2d78-4641-984a-0c494f81e024">
               <gml:surfaceMember>
@@ -7145,7 +7145,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_d934e53f-4cd5-4a91-9da5-932ce4b7f95f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3cb68229-0059-4bd4-86a3-cb966314b1df">
               <gml:surfaceMember>
@@ -7162,41 +7162,41 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>38</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>38</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wFN">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wFN</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wFN</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_3022</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_2a73aca9-69c9-4407-8496-0bba4e437b55">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -7272,7 +7272,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_78146204-3489-4639-bb3e-e84cea96089e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f7fd0370-de19-4d89-8731-d465247b3370">
                   <gml:surfaceMember>
@@ -7290,7 +7290,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_8649c842-a0a0-466d-8c1e-9acf6ff2849f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_4908824e-64f0-4311-b3d4-56840d495656">
                   <gml:surfaceMember>
@@ -7308,7 +7308,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_0e435c9f-3b53-447f-8e83-606a073b9372">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_63167ef8-7fbc-4496-a0b5-21b0fefe2d20">
                   <gml:surfaceMember>
@@ -7326,7 +7326,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_128e6e53-97e7-4bdc-abbc-289d5b8d9e0e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_c0fc4954-4024-4140-add7-16ea10620ef3">
                   <gml:surfaceMember>
@@ -7344,7 +7344,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_7fb687ad-1f43-4d39-b7dd-a428eb0086bd">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_88fc7b14-d261-4019-87a7-7ead69d5a440">
                   <gml:surfaceMember>
@@ -7362,7 +7362,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_44518beb-0bd9-49f4-b6f7-04600b68da39">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_d4dd0480-34c7-43bf-9f00-b7bc98a25314">
                   <gml:surfaceMember>
@@ -7380,7 +7380,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_6734c108-506b-4a08-8394-71e4fcb17272">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_5ea4629f-d99d-45a2-a41f-56bb9019e270">
                   <gml:surfaceMember>
@@ -7398,7 +7398,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_90c8b8bd-f52c-4057-a210-597296814859">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_ee4f406f-70e5-4dcb-8696-019b1c75a39a">
                   <gml:surfaceMember>
@@ -7416,7 +7416,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -7434,7 +7434,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -7454,7 +7454,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_WhT3vLvWH2sO74Fs">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -7509,7 +7509,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e66a3cf5-8f65-4a48-9e71-faa9fd1f157b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_719331fd-8dd4-4d98-bc4e-20040e456f0d">
                   <gml:surfaceMember>
@@ -7527,7 +7527,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e4f95bd3-901e-442c-8939-28689715cbb8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_af8cdad7-8477-4b80-9800-73d525bc7642">
                   <gml:surfaceMember>
@@ -7545,7 +7545,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_001921d5-88b2-4e5a-8c6f-b40d5998b38c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_97ef3bb4-5f21-4155-b0c7-762c39f05e3b">
                   <gml:surfaceMember>
@@ -7563,7 +7563,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_bbfd6cd0-21b0-4d82-a4d2-89909a52b2a6">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_bf1a7db9-bd90-4169-9708-19498608c97f">
                   <gml:surfaceMember>
@@ -7581,7 +7581,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_63c0a7a4-329d-4622-a7f1-f05dbfe4438c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -7608,7 +7608,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -7626,7 +7626,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_73c57b63-0d8c-4eb7-a1aa-3147e9023ff4">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -7644,7 +7644,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -7661,61 +7661,61 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xHv">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xHv</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xHv</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_1010</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_cf1845e6-ae12-479d-90d9-7f0c8b7eb240">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -7805,7 +7805,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_1e35b206-acf5-4ba6-9236-1ca546aac785">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3ad98351-8e87-4472-9a11-139841785ba3">
                   <gml:surfaceMember>
@@ -7823,7 +7823,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_1ed79b92-1efc-4f1e-8e42-230a38bf58fb">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_95f506a8-68d5-49ce-8ec8-6338dff2aaa0">
                   <gml:surfaceMember>
@@ -7841,7 +7841,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_4f36f9e5-7bde-43c1-91c4-527792253565">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_fc6c04d2-e6f5-4fcf-bacb-c2b9f686a3ac">
                   <gml:surfaceMember>
@@ -7859,7 +7859,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_4a7f9626-995d-4a0f-ac74-9d7ddb98afb7">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_b0d94a36-e8a8-4e03-bb54-744d06daf2ec">
                   <gml:surfaceMember>
@@ -7877,7 +7877,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_3cf607ed-9af7-48d6-b516-4397e035111a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_ed981ff2-aa04-475f-8676-58c2c314aa18">
                   <gml:surfaceMember>
@@ -7895,7 +7895,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d5461f2a-aabe-4658-81d8-aaedbbff8a7f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_ed0a5117-4887-462d-88cc-84f1f0c94cce">
                   <gml:surfaceMember>
@@ -7913,7 +7913,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_70a422f4-f8bd-4b54-a5ba-978a10c38c93">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_2bb21a3e-aa50-4315-be87-607522389cf7">
                   <gml:surfaceMember>
@@ -7931,7 +7931,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_10c5ccc0-dd76-4f22-b91d-17e265d4ea3b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_85ab6988-eed6-4d67-af94-1c67bf465031">
                   <gml:surfaceMember>
@@ -7949,7 +7949,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_f944c53c-555f-4a3c-9441-140ebe606cb1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1b2c5672-a082-4416-a7f5-baa33708d212">
                   <gml:surfaceMember>
@@ -7967,7 +7967,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_897d91e3-9632-4730-bbdf-2e93e0989ddd">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_d1ad6809-1999-40f5-b873-86c8899225ae">
                   <gml:surfaceMember>
@@ -7985,7 +7985,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_326c2448-8357-49bd-9602-ee1c9e750712">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_58567cc4-675d-4373-93fc-decc6c9d0ff4">
                   <gml:surfaceMember>
@@ -8003,7 +8003,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8021,7 +8021,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_0214020f-44f0-4a01-8542-8c518c89b983">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8039,7 +8039,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8059,7 +8059,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46509997">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -8112,7 +8112,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_bb923e2d-bd59-4b58-85fb-6d97dc759784">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e49cb662-d95a-4528-a8dd-e3440b769032">
                   <gml:surfaceMember>
@@ -8130,7 +8130,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a3834965-34bc-4803-962e-5836ad6d0e5d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_0d854e3b-39c8-472c-806e-8259b171c1ed">
                   <gml:surfaceMember>
@@ -8148,7 +8148,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_fa04a257-69af-482b-a4fb-3112780701a8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_bacc2167-2c91-42c4-bb24-7cd5499b5072">
                   <gml:surfaceMember>
@@ -8166,7 +8166,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_529cab5c-7165-4549-8145-8b65b644e1dd">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_732194ac-4daa-4e81-af90-6b727a90e7fc">
                   <gml:surfaceMember>
@@ -8184,7 +8184,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8202,7 +8202,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ba925bea-7558-4e20-b212-9f9aa31241f6">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8220,7 +8220,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8240,7 +8240,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46509999">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -8294,7 +8294,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_930a68ba-3684-49df-88a2-01856e9032b9">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_9adcbf55-91ed-4354-8fb6-9b2ba2ebf9f6">
                   <gml:surfaceMember>
@@ -8312,7 +8312,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_04e47b2f-6045-41b6-b6b8-752cc481853d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_64a185a6-67f9-422f-ae86-8a3e78e636ae">
                   <gml:surfaceMember>
@@ -8330,7 +8330,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c2fe72d0-1d22-4983-a0f6-619efe222e82">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_c14bfb53-5481-4a7c-8e30-8376b0951faa">
                   <gml:surfaceMember>
@@ -8348,7 +8348,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_62822744-3f04-4321-b655-2bf33256b678">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3cbffffa-43e9-4545-a8d4-b47d88765226">
                   <gml:surfaceMember>
@@ -8366,7 +8366,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_899856ef-3ca3-4861-8a6d-fc7d221702e9">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_52e154aa-a091-4115-826f-313b3397a7d2">
                   <gml:surfaceMember>
@@ -8384,7 +8384,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_23385523-9ce5-49e2-9fe6-beb86e642c40">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8402,7 +8402,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8430,41 +8430,41 @@
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>15</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>15</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xBS">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xBS</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xBS</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_1010</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_f30bd79c-73d3-44a1-90a6-8897dbeaaa5d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -8556,7 +8556,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_079c71c4-2c59-4d85-8fb8-5d01bc8311a3">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6f5ebd4f-cf8c-47c1-b642-2b7bf68c6e97">
                   <gml:surfaceMember>
@@ -8574,7 +8574,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_250cc4a6-7d3b-4445-bfdf-35becfb2c27a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_29514be4-f170-4a5a-9c09-bca2d3bcc7b8">
                   <gml:surfaceMember>
@@ -8592,7 +8592,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_717bb9c7-f9e4-43c5-8449-c0ac854a64ac">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_09977c30-6c17-45dd-8b4a-904238a1bd4d">
                   <gml:surfaceMember>
@@ -8610,7 +8610,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_efcb3f3a-0222-442e-ae75-0a3ee1ac5684">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_df66e0c4-2dce-465d-a208-98f5df54789a">
                   <gml:surfaceMember>
@@ -8628,7 +8628,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_0e81f607-e856-45ad-9d07-50e4220529ca">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_4db3dea2-3508-4e43-b443-99dbe18fff38">
                   <gml:surfaceMember>
@@ -8646,7 +8646,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_5ee8e8de-3a28-4b3c-991f-2da3fd9a206a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_fb2f00b4-9c1f-4f6c-bc19-203c392f8cc6">
                   <gml:surfaceMember>
@@ -8664,7 +8664,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e184b062-402f-4734-83d5-6be57be09436">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_2132812e-236e-4344-b5db-fac3ee82526d">
                   <gml:surfaceMember>
@@ -8682,7 +8682,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_7f99e5a5-5405-434c-aedb-45e70b04bcf1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_4dcedfd3-99a4-4860-9d28-703077110435">
                   <gml:surfaceMember>
@@ -8700,7 +8700,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_693928bb-d86c-4cce-bdcf-267cbfe5ec11">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_647c4451-4276-4347-b733-a3bc88d36eda">
                   <gml:surfaceMember>
@@ -8718,7 +8718,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_32406023-ac95-4869-bbbb-ce92b70e685c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_fc21501d-5bce-4494-8c67-f85432308c65">
                   <gml:surfaceMember>
@@ -8736,7 +8736,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_22cac83f-8c9d-4afe-80cd-f079a39d75e7">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8754,7 +8754,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8772,7 +8772,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_79582c19-8e5b-496f-888c-5270bb3acdcd">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8799,7 +8799,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -8828,7 +8828,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_ByspK8wtO9vsMKFL">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -8903,7 +8903,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d28aff04-c1ae-4b10-b2dc-c59efca1e9a6">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_04562ba5-f8b8-421c-aa93-e640e508cebe">
                   <gml:surfaceMember>
@@ -8921,7 +8921,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_22d48286-5542-4b13-b8e8-5c673233e861">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_10678dd0-8c7e-4bc9-8e4f-31db4bfc27cd">
                   <gml:surfaceMember>
@@ -8939,7 +8939,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_395e4e98-670d-4152-83c3-0bf45bb26e31">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a44cc1cb-53fb-43e2-9218-ecb4d90ec19d">
                   <gml:surfaceMember>
@@ -8957,7 +8957,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ab81d29c-4ae8-4b23-ac25-93c15c88fc22">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_67fd7e4b-9672-49ca-955e-9857da0db23d">
                   <gml:surfaceMember>
@@ -8975,7 +8975,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_23ba1767-ab18-4f87-b9ef-a8bd06abe9f9">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f3be0021-db88-4ee2-ac88-f7ab24464b9e">
                   <gml:surfaceMember>
@@ -8993,7 +8993,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_c1847363-15c2-4fe6-b858-f7bf3073dd63">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_ef5b8531-aaf3-4e9b-8a12-8d78c1c282dc">
                   <gml:surfaceMember>
@@ -9011,7 +9011,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_37ad00f1-6f47-4a3e-95a9-f30ef248d45a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_eee05413-ff84-43b0-ac74-97457653f5c5">
                   <gml:surfaceMember>
@@ -9029,7 +9029,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d64521b6-4264-4059-a8b8-f51aa672c6ae">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9047,7 +9047,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9065,7 +9065,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_4bd2d1f2-05de-4c51-84a7-a3f2efe8cc49">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9092,7 +9092,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9110,7 +9110,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_633ebd90-d7de-4c42-9562-bcc3faea7969">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9128,7 +9128,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9145,28 +9145,28 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>26</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>26</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_WnvqrD9MBnrvlTKK">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -9224,7 +9224,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_187e614a-49bf-4bc3-a514-612e26769690">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3e0608d1-9402-44cb-ac98-1e5a58dd11bb">
                   <gml:surfaceMember>
@@ -9242,7 +9242,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e38c3299-bc08-48c8-ad5f-c2c006981042">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_449e6326-3552-41c5-b469-ef81f97862cb">
                   <gml:surfaceMember>
@@ -9260,7 +9260,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_027ed7ca-4aec-4547-8691-9de765dc191e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_5ef1a008-7ada-45e8-8d20-feed13bae7a3">
                   <gml:surfaceMember>
@@ -9278,7 +9278,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_a55e6315-5229-45f0-b050-4f422a1756ec">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8d8dd051-6446-4687-b2bb-ea603e9e9102">
                   <gml:surfaceMember>
@@ -9296,7 +9296,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_766e145d-13ad-4b2f-bfaa-c6add30352a0">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_18e1cd4d-072b-4abd-9f5a-1832388e6d5e">
                   <gml:surfaceMember>
@@ -9314,7 +9314,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9332,7 +9332,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9349,54 +9349,54 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>26</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>26</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>26</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>26</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000vuT">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000vuT</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000vuT</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -9455,7 +9455,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e7e33489-e46c-41cc-91e9-2a29c4f0aca4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_723c73f8-35c7-4b75-9e7f-5ec7f71c1b9f">
               <gml:surfaceMember>
@@ -9473,7 +9473,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3769a573-4541-4278-bf96-600a174371f6">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_facf0063-0c83-4595-bb75-2840497f6ba4">
               <gml:surfaceMember>
@@ -9491,7 +9491,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ea940643-fe10-466c-aa6d-05a08149cbb1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_550d6323-4721-4f98-b2a6-ae906deca5c5">
               <gml:surfaceMember>
@@ -9509,7 +9509,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_6cd31660-6213-49f8-8e5e-5c29e4043265">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_358b4ad4-3ccd-4219-ad04-08613019891a">
               <gml:surfaceMember>
@@ -9527,7 +9527,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a8a5e1e2-c75c-4a15-9378-86bb748e3040">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a832fcf2-6088-4e3f-929a-2f090ffaaf2e">
               <gml:surfaceMember>
@@ -9545,7 +9545,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_225a9bd6-f4b4-4af0-9154-301d3a329365">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9b1dc192-3752-4f5a-88ad-722d82ac4bed">
               <gml:surfaceMember>
@@ -9563,7 +9563,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_e311dd00-8090-4729-a202-98627253e7a7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_12349cee-e902-445e-b393-479f1724e8b5">
               <gml:surfaceMember>
@@ -9581,7 +9581,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_2bc49d40-c66b-40e8-929b-55df160ed5e0">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_babff4ae-c265-4267-9cf9-1251b3de9b29">
               <gml:surfaceMember>
@@ -9599,7 +9599,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_59dd5538-c88a-4505-b6a0-64f2ec016de1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d586f2ba-b565-4025-b9ad-6e729dd21bd3">
               <gml:surfaceMember>
@@ -9616,41 +9616,41 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>7</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000voG">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000voG</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000voG</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_1010</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_a0b6141f-b8d6-4be0-91ec-110f9bc66680">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -9739,7 +9739,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_1114a086-4302-4384-9acb-c366590e993b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_488b1c8d-21a6-4547-ab85-5d3a56b9d224">
                   <gml:surfaceMember>
@@ -9757,7 +9757,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_43a22128-1119-4314-98ac-9ff8f6726c9f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3fd91744-be1b-403a-b63a-7efd06c1706d">
                   <gml:surfaceMember>
@@ -9775,7 +9775,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a86b1788-bc80-47d3-8be5-17a32449a6a2">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_5ece73e8-9db1-4ddf-8890-d922ab0cfcd8">
                   <gml:surfaceMember>
@@ -9793,7 +9793,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a3e3199f-7331-4b96-99af-758651ba8be8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_14dccb91-b31a-4663-94a3-ea43d57b028e">
                   <gml:surfaceMember>
@@ -9811,7 +9811,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_df9d0ba4-22ab-48c3-9b0e-aab8f6ccbdbb">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_ee85a26b-8c09-45f7-9513-aff18cdef6d1">
                   <gml:surfaceMember>
@@ -9829,7 +9829,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ade765b1-97a4-435a-8481-affe6d6d2e28">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6f0fa095-6a4f-4590-a321-e6d8769ad572">
                   <gml:surfaceMember>
@@ -9847,7 +9847,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_b413b28b-3223-4d76-9baa-4b7f316f4d67">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_c4fab80b-a14b-407c-81d6-92373b1a5fd9">
                   <gml:surfaceMember>
@@ -9865,7 +9865,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e6c163cd-ee9e-480a-85b3-ef9d835f816b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_dc2a6ed8-3a72-4e3b-912b-9e0dd3a73b46">
                   <gml:surfaceMember>
@@ -9883,7 +9883,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_eb5c4cf8-85d4-4543-ab39-c677b3201899">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_d38593d8-b296-44db-9186-a21ec67fb6e4">
                   <gml:surfaceMember>
@@ -9901,7 +9901,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_15c27021-769b-4ac1-8215-ef02cf817e1e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_83839a9b-b75c-434e-b833-e822c19bd0b6">
                   <gml:surfaceMember>
@@ -9919,7 +9919,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_101b83fe-63e1-4629-b601-df520ef4138a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_7f3609dd-9c78-4102-807c-17a25b0a2321">
                   <gml:surfaceMember>
@@ -9937,7 +9937,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_71f147c8-2621-4838-be24-42283f8a3d97">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9955,7 +9955,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -9975,7 +9975,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_N3EIORNWmm64Gf6R">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -10028,7 +10028,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_56a0a19d-75a3-4a69-b9b2-8a6b238e4276">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_61bdc5ba-c414-4809-9378-11fbf8b2a397">
                   <gml:surfaceMember>
@@ -10046,7 +10046,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e3d7becb-da5d-49f1-bda6-cc2ce344e890">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_54dff56c-9a46-46b4-aa37-8c035dae24ee">
                   <gml:surfaceMember>
@@ -10064,7 +10064,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d710124f-0c7b-41ca-9d9e-339e9e44ebc0">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6cf5afc5-a2a6-4bbf-aeed-1e3632e51983">
                   <gml:surfaceMember>
@@ -10082,7 +10082,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_1e988df5-6af1-4c12-996b-14852db31d03">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6da93fe7-07b6-4a45-abed-d839437b036c">
                   <gml:surfaceMember>
@@ -10100,7 +10100,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_6b646baa-734c-4733-b389-a89b007ad4cc">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_dc585d66-ac8e-4b8f-8346-becf16d93894">
                   <gml:surfaceMember>
@@ -10118,7 +10118,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d6c7422e-248c-46e7-ab9b-ca8fc70a6d1a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -10136,7 +10136,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -10153,28 +10153,28 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>36</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>36</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46510009">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -10226,7 +10226,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_8acfdfdb-11da-423c-94ce-63a39ecceb45">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1ba81738-4c85-45cc-8d56-6a18e64c9d6d">
                   <gml:surfaceMember>
@@ -10244,7 +10244,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_2aa819bf-bc2b-44a5-b0ef-be9e14654d1c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_86b45e30-3852-4032-9c15-20b056d60aaa">
                   <gml:surfaceMember>
@@ -10262,7 +10262,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_83cdf2b9-7f1a-4ec9-8326-63a3220eeecc">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8f9cecbe-89cb-425a-a448-f0971c1b933b">
                   <gml:surfaceMember>
@@ -10280,7 +10280,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_91a439a8-13e3-4a25-9bd1-f1772c429209">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_07fae0ec-a651-4c25-a3ae-2bc22bb90a69">
                   <gml:surfaceMember>
@@ -10298,7 +10298,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -10316,7 +10316,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -10335,34 +10335,34 @@
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>36</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>36</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010eS">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010eS</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010eS</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -10418,7 +10418,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_edb156c5-8adc-4a13-b814-d64d17982813">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_43f4163d-20ce-401e-ac53-3e1d5f8f5532">
               <gml:surfaceMember>
@@ -10436,7 +10436,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3f9bf3cc-fc29-4c9f-9617-a60ef11e8851">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8071f51b-55f9-4f13-9955-07641d596bf8">
               <gml:surfaceMember>
@@ -10454,7 +10454,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2ecf282a-a746-4cde-91f3-87713a8497e9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2fc067f9-0728-463e-9ada-0b20be7c32b0">
               <gml:surfaceMember>
@@ -10472,7 +10472,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_767c6fa4-bc1c-46fd-8213-326dccf24085">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_109164e6-9b55-499c-a4c7-0424f514c8fd">
               <gml:surfaceMember>
@@ -10490,7 +10490,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_f9da7c2f-6db7-48a4-b6c0-67d63e1ab112">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_fdff54f2-54d5-46d0-acc5-7b62b92d68e2">
               <gml:surfaceMember>
@@ -10508,7 +10508,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_80508074-4006-48c8-8f5d-192dafe8115e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_772f405d-ac11-4914-8c3d-0bce12c2687d">
               <gml:surfaceMember>
@@ -10525,16 +10525,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW28AL0000729k">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW28AL0000729k</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW28AL0000729k</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -10657,7 +10657,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_187642fe-e8eb-4000-91ba-085b0b44ed93">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a0e17078-3283-4345-9080-cb501f987674">
               <gml:surfaceMember>
@@ -10675,7 +10675,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a14336dd-d6b7-4a58-8017-764856f19ca0">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ba1f3922-65d9-4c0f-91bd-8aba09a14214">
               <gml:surfaceMember>
@@ -10693,7 +10693,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7fe91f12-0dc9-4814-9865-8ece68719bf6">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_af60ff32-2163-4643-977c-e0f8660e5a50">
               <gml:surfaceMember>
@@ -10711,7 +10711,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_baa7a7e5-19bf-4d2a-b128-74b499c3357b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1543d62a-e705-4374-96e8-bbb8bf774cc8">
               <gml:surfaceMember>
@@ -10729,7 +10729,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_000dbc8d-f587-46e3-9bc2-2b6528808699">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_dec81ec0-be10-40dc-b64d-c09170060f92">
               <gml:surfaceMember>
@@ -10747,7 +10747,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8d178285-eaea-47db-96c3-1e585c7e7f30">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b4a0c25e-68d8-4ff3-8132-6df009ef61d8">
               <gml:surfaceMember>
@@ -10765,7 +10765,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7dc87059-e93e-4e13-9af9-d64e54086d2c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1ffd8b41-bcb1-4c3f-804a-ce7dbf6a65c8">
               <gml:surfaceMember>
@@ -10783,7 +10783,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3f378e6f-86ed-41e5-831f-5de02ac26f59">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5f5122c0-eb61-4051-be1e-7828fabb9301">
               <gml:surfaceMember>
@@ -10801,7 +10801,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_45cd4125-13c5-4fcf-be72-daed0020b597">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ddb6a63e-85eb-4899-8492-ec97f2a743f3">
               <gml:surfaceMember>
@@ -10819,7 +10819,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e882d726-70d8-4fd4-b195-7ddfc89f9e54">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_93797a9b-80ba-4fb5-a42e-924ed13ab0c9">
               <gml:surfaceMember>
@@ -10837,7 +10837,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9ba3f796-5fe0-401d-9aa6-137a517828fc">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d50c1e06-e7a5-4447-b39a-273623e40025">
               <gml:surfaceMember>
@@ -10855,7 +10855,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e639599f-7b50-4b03-a709-05ad3604bb0a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_849301ce-5605-4b1e-a849-a5a045a6b0fc">
               <gml:surfaceMember>
@@ -10873,7 +10873,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_91af33f5-a30a-4d57-9a6e-6305e2dbe6a7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_111f128b-d60f-4229-8cc7-729cbd9c7a92">
               <gml:surfaceMember>
@@ -10891,7 +10891,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_c92f8a03-a4fb-4af1-aff9-81916790e881">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b276916d-9770-401f-99b6-df6ff20ccd4a">
               <gml:surfaceMember>
@@ -10909,7 +10909,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_0ba3ac6c-f26c-40e4-9675-083735cb0933">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3f5705f5-cfdd-4015-a313-6e47e9596b3a">
               <gml:surfaceMember>
@@ -10927,7 +10927,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_9ebcc35b-135d-488c-bdcf-155362539145">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ff91a74d-deb9-4c53-8424-aec4e00a332e">
               <gml:surfaceMember>
@@ -10945,7 +10945,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_aeac7819-a6ec-49ae-911c-510e9229503f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_53ce5b7e-c188-43f8-a9f7-ec62ba9f3206">
               <gml:surfaceMember>
@@ -10963,7 +10963,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_bdbf96fa-9e9f-404e-ab4b-5d4c12154c94">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_14a9d666-49c7-48fc-ac78-4d1bee00ed0d">
               <gml:surfaceMember>
@@ -10980,34 +10980,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Solingen</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>199</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Burger Landstraße</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Solingen</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>199</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Burger Landstraße</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010fM">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010fM</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010fM</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -11063,7 +11063,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_076f87b5-06af-41ad-9478-218fdd33aa02">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_bea9b36c-46b8-4037-9e4a-de784d285d5f">
               <gml:surfaceMember>
@@ -11081,7 +11081,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e8954032-24fc-4be8-9643-955d863c3a9a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_75bb86c0-e22e-4bfb-828f-618c4a8807de">
               <gml:surfaceMember>
@@ -11099,7 +11099,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9ce5f955-278d-45e3-b65e-a1376f9920cb">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1e5f2791-b84e-4486-8daf-365b38e8e6d6">
               <gml:surfaceMember>
@@ -11117,7 +11117,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ed6396e8-cfe8-4ba1-8ca2-90883fc0d634">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c61ef565-32ad-4512-9cf6-7c6a31e80cd8">
               <gml:surfaceMember>
@@ -11135,7 +11135,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_32252bfe-341d-417a-b6cc-3b42e0de3af3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_92018861-504f-44b3-8356-48e853fed56f">
               <gml:surfaceMember>
@@ -11153,7 +11153,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_ee7987c5-15b8-48a3-8b9e-e87edeea3229">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_80d918e5-5922-4349-b26d-5ad212de82ce">
               <gml:surfaceMember>
@@ -11170,16 +11170,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xJG">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xJG</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xJG</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -11238,7 +11238,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5322fe87-40ff-4e24-93dc-bc4d2360a506">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0d13a14d-d474-46ac-b883-aa8b35555168">
               <gml:surfaceMember>
@@ -11256,7 +11256,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_befad512-8de5-4556-aa55-2b0667f92a71">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_86dee7a3-edf4-4d62-b697-0375a8236643">
               <gml:surfaceMember>
@@ -11274,7 +11274,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3e32f89e-2e10-4753-b863-029c6a3960e5">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b294bd87-dbb6-4063-8dec-cccf383fdcd3">
               <gml:surfaceMember>
@@ -11292,7 +11292,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_0f12cfe9-2778-49f6-9c24-ebe6d9c65b24">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_36d5854a-1c29-4ba5-9f38-3de3effa3193">
               <gml:surfaceMember>
@@ -11310,7 +11310,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ae6417bd-0144-43df-9bd2-cf4ebc5f090a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5d7ccd9d-43e7-45b2-b838-dfcbf96ad045">
               <gml:surfaceMember>
@@ -11328,7 +11328,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_1a627032-8b68-4cc0-801d-ca3d11af630d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_4bc13c65-23e3-42b4-8172-419ddd5f2e5c">
               <gml:surfaceMember>
@@ -11346,7 +11346,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_f6996ff5-6541-4cb5-8101-701c5dbca8f7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_56b68e90-a772-4dde-9f06-2bc2be0cb9d1">
               <gml:surfaceMember>
@@ -11364,7 +11364,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_dc997398-c6e1-4fe8-b04a-ce570a0e76dd">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e2ec6f71-6f4a-4430-a922-d24787b44549">
               <gml:surfaceMember>
@@ -11382,7 +11382,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_1276f128-0f89-4917-9386-62307e6226cc">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_230fdaaf-e8ed-41fb-8631-54184fb2c05f">
               <gml:surfaceMember>
@@ -11399,34 +11399,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>11</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>11</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wXR">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wXR</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wXR</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -11495,7 +11495,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_e687452f-bfdc-4302-80fb-b9c40814e085">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_7028f925-f811-4bd9-9561-ac6f5bee629b">
               <gml:surfaceMember>
@@ -11513,7 +11513,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_d68c21ed-31d0-4ffc-8a3d-7031af9a33da">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_81fd0682-a176-4c09-aab2-68940dc7f4f1">
               <gml:surfaceMember>
@@ -11531,7 +11531,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_55f3fb5f-a27a-4af1-b20c-d43e1bd487da">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ccd643f1-60a8-41fc-85d8-25dfb307f96c">
               <gml:surfaceMember>
@@ -11549,7 +11549,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3af429c7-8fe8-494c-b1a0-62a3d77c96bf">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_51ad7710-0088-49af-b09f-c04c54c198d3">
               <gml:surfaceMember>
@@ -11567,7 +11567,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8cb1e13b-f15a-4bfe-a327-97b0097f1fff">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_cf7e5257-8bd8-424f-8d60-decc8a330507">
               <gml:surfaceMember>
@@ -11585,7 +11585,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_eecda8b3-5fe5-4313-8b61-df2e5cc2f7d2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_845a748e-6b5e-41bd-8fad-853cf68c3543">
               <gml:surfaceMember>
@@ -11603,7 +11603,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_3eec4d84-d77f-46a8-ae83-fe9f1e3d1624">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6ff94348-4cb1-472f-81e2-6bbcb8ebd991">
               <gml:surfaceMember>
@@ -11621,7 +11621,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_a7b08a77-7b32-4b20-a7b2-d456fd79fbb3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_75257f6c-af20-4d93-ba17-616e82819f31">
               <gml:surfaceMember>
@@ -11639,7 +11639,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_31d0a2f4-dfff-49b6-9cc8-19a30ee67a2c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_13ee93c0-6fd4-4bcb-9970-d4793c2e984a">
               <gml:surfaceMember>
@@ -11656,34 +11656,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>20</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>20</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000w3Y">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000w3Y</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000w3Y</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -11739,7 +11739,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_340bd248-0ea1-4d95-b5eb-0dd5fddda98d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0e13d9c0-b526-469b-9504-b627008db54f">
               <gml:surfaceMember>
@@ -11757,7 +11757,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a59ffe4a-07b7-4097-a432-9270a0fafae6">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_88172bea-f20d-4b94-b7cd-d135c713f79f">
               <gml:surfaceMember>
@@ -11775,7 +11775,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_4c856e19-d0d9-4fd5-a967-980fd32a1828">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_34ecefb1-2d42-424d-94f3-4b6c0b0d6582">
               <gml:surfaceMember>
@@ -11793,7 +11793,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3cf6d443-20a2-413e-aec6-0b9dd05632e2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_77489795-8117-4b46-a777-66a49b288111">
               <gml:surfaceMember>
@@ -11811,7 +11811,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_4d6c9f99-7c9b-4558-b15d-4aae338b5301">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0db23a75-47d8-4fcd-9220-894412ed6969">
               <gml:surfaceMember>
@@ -11829,7 +11829,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_6d9b0392-ffdd-410c-88a9-572816b096a3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_596c0b87-250d-4d1a-a236-aa81f995c127">
               <gml:surfaceMember>
@@ -11846,34 +11846,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>14</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>14</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000vvl">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000vvl</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000vvl</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -11929,7 +11929,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_89faff67-ab1e-4742-bb5b-191e03e10283">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_04bf8bf0-7655-40fc-97cf-13e4cfedfd4a">
               <gml:surfaceMember>
@@ -11947,7 +11947,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_18906135-94f9-4719-97a9-529f3e64f57f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f5f86436-b0af-4f67-8754-23c79366054d">
               <gml:surfaceMember>
@@ -11965,7 +11965,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_da078b0c-c4b8-49b5-8537-6f01d4f33fc2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_25aaf817-14b3-480e-ab4a-c396d22f4fb5">
               <gml:surfaceMember>
@@ -11983,7 +11983,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a87aa6aa-ce54-4d0e-92f7-4a8ae7d9af68">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ea080c90-1d60-4500-b3af-638757961364">
               <gml:surfaceMember>
@@ -12001,7 +12001,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_d18a96fc-f1d1-46ce-9159-874f37d66cb8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a1711ca8-2cb5-4fa9-aae1-ce30f411b4e2">
               <gml:surfaceMember>
@@ -12019,7 +12019,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_7f093d9f-ecaa-4329-8548-6be11f1f582f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ac102207-b825-4bee-a26a-6fd8d3317820">
               <gml:surfaceMember>
@@ -12036,34 +12036,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>8</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>8</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010j2">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010j2</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010j2</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -12137,7 +12137,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3b6770ae-0133-492b-98b3-49574f36bb69">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f9c12268-e856-4f71-a341-669615723510">
               <gml:surfaceMember>
@@ -12155,7 +12155,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3ac90555-a173-4613-b77f-10e9012df0da">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_096a3486-b80f-4e10-b010-657af43ba698">
               <gml:surfaceMember>
@@ -12173,7 +12173,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_58df2721-710d-43b7-b33f-f210aacad288">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c621d688-9546-4406-9329-de6d7550c7f6">
               <gml:surfaceMember>
@@ -12191,7 +12191,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8ad0a1f4-df41-4ee1-9d34-c484261dc092">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1d44d22a-67bf-474a-af6d-62b203cb186a">
               <gml:surfaceMember>
@@ -12209,7 +12209,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_c98d0e38-8f5b-48c8-9f38-8089d0def57e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0058bd88-5e7e-4f0b-a394-c6d64021da85">
               <gml:surfaceMember>
@@ -12227,7 +12227,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a4d15ab6-a09c-4430-818b-caacb1764e8f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_978448bd-3dce-483a-8f43-497cfd4057b9">
               <gml:surfaceMember>
@@ -12245,7 +12245,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_d3b4d93f-82b0-4a6d-8d88-edb72683a56c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_863c1ac8-3395-4226-adb5-e2647a033437">
               <gml:surfaceMember>
@@ -12263,7 +12263,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_c0191684-cd30-484f-b43a-2be54de02e30">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6814caa3-28b7-44fb-9616-becbcef6b74f">
               <gml:surfaceMember>
@@ -12281,7 +12281,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_c27c7917-d3dc-48e5-be50-5f9d66a74243">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_52f03729-6c37-4af1-9a60-91351df00ab0">
               <gml:surfaceMember>
@@ -12298,16 +12298,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000vfa">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000vfa</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000vfa</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -12363,7 +12363,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_f9693b10-01ea-449d-9c74-c0bd5123f7c3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_850ae7c7-18cb-45b1-96d3-8413ba5bfb75">
               <gml:surfaceMember>
@@ -12381,7 +12381,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9fe5eeba-2936-4048-994e-94f0225372af">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0996132b-2b19-43fe-a454-605461583578">
               <gml:surfaceMember>
@@ -12399,7 +12399,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_840cea51-7b92-4a2b-ae45-888cfa5fcf80">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_91b1ab65-2e74-461f-8f2d-caad93487cd5">
               <gml:surfaceMember>
@@ -12417,7 +12417,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_086a8405-38a3-4583-97b5-d161ea1ce4bb">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_685bd0ff-2e10-4153-82d2-316797382ac7">
               <gml:surfaceMember>
@@ -12435,7 +12435,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_a57d18a6-098e-4fbd-9dc8-3f11395722b7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c24806dc-6f84-46e1-b17b-48980996068c">
               <gml:surfaceMember>
@@ -12453,7 +12453,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_226ce81c-3827-40b1-8c13-aeb7bcb6ebf8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_91426997-9e43-457a-acfe-eac3dd58ffa6">
               <gml:surfaceMember>
@@ -12470,41 +12470,41 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>8</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>8</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xK4">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xK4</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xK4</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_1010</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_b24464cc-e991-4073-aa81-80faa5903ef9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -12578,7 +12578,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_0dd168c9-ab52-46a2-9496-315d706231c8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_7edbf57b-f07a-40ed-b18a-cd72f017f33d">
                   <gml:surfaceMember>
@@ -12596,7 +12596,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_5b6722c1-4ab8-4210-88ae-436c74629828">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_c9e2f0b6-126a-42c7-8c32-9d539bc9c277">
                   <gml:surfaceMember>
@@ -12614,7 +12614,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e8d71fab-db0e-4934-aff2-cc224c0e1db8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_bb5ff092-2f58-4b67-83e5-70702a678f76">
                   <gml:surfaceMember>
@@ -12632,7 +12632,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_de0ce38e-0fd6-488c-94a4-d1aef02ca5ee">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_82d3fcc9-d5e8-4937-b00e-d011d739bf10">
                   <gml:surfaceMember>
@@ -12650,7 +12650,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_5521d6c3-5d00-4f7f-857a-48e495903e8f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_ffa85a9f-30ed-4d4d-821a-f65d0fc80879">
                   <gml:surfaceMember>
@@ -12668,7 +12668,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_1db2c682-14c6-4557-b69c-81423a4cb104">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1ff180ca-c2a8-4fdc-9ece-7af1673b9cdd">
                   <gml:surfaceMember>
@@ -12686,7 +12686,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_94ca0c5b-e451-413a-8bb9-adeb94d152d0">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_9823cf10-f903-4ee0-926d-3abe7d733542">
                   <gml:surfaceMember>
@@ -12704,7 +12704,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_431f4c39-ef64-45d7-ab1d-d5485f406a4f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_ec489386-9b47-450d-bb43-d677047770c5">
                   <gml:surfaceMember>
@@ -12722,7 +12722,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_fbe537d1-ec5f-4b3a-a92d-9eab98f6a3cb">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -12749,7 +12749,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -12767,7 +12767,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_01847a5d-2a25-4ed4-be03-718f89739e8c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -12790,7 +12790,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -12810,7 +12810,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_peNyeb3SUyakenve">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -12866,7 +12866,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c327d87b-f352-4d15-87e9-0382b97f40bc">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_0a4247a6-5374-4fb0-8f30-a51162e00771">
                   <gml:surfaceMember>
@@ -12884,7 +12884,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_398c2d80-777f-45e2-9759-e4ee9b3f3644">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_94f1aea9-dc6c-4850-a8c8-4e8165500a3b">
                   <gml:surfaceMember>
@@ -12902,7 +12902,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d508f6fd-d0f3-4f81-9c7d-adbee816273f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_0368e952-57ff-49cf-b596-c5fe73218050">
                   <gml:surfaceMember>
@@ -12920,7 +12920,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_fd12c807-e993-463d-94ef-071496e7b8ab">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_c1d1b56f-514f-41f1-8bdd-e4fc3d8f64d4">
                   <gml:surfaceMember>
@@ -12938,7 +12938,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ac356e15-01c3-47df-981b-3c9b146bac6f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a0795e09-3e4d-4c2f-9d06-f3ecceb120a9">
                   <gml:surfaceMember>
@@ -12956,7 +12956,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_62632884-218b-42f7-8a30-fe66359f4f0a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_014c328d-fcd4-4676-a1a4-1fde96c0368a">
                   <gml:surfaceMember>
@@ -12974,7 +12974,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_fb0b803b-60ff-4cee-89ae-c36005f6153f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_edd8ad9a-4094-4336-9764-bebd931bae54">
                   <gml:surfaceMember>
@@ -12992,7 +12992,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_5a389296-45dc-4337-baab-2553f003c5f4">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e1b3c63d-ea95-45d6-887f-91743fffdc00">
                   <gml:surfaceMember>
@@ -13010,7 +13010,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -13036,54 +13036,54 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>29</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>29</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>29</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>29</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wnx">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wnx</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wnx</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -13145,7 +13145,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_0e0d6ad1-b2da-4553-bb04-569e489dc217">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0c920c30-3764-49cc-b15c-05620bc972c0">
               <gml:surfaceMember>
@@ -13163,7 +13163,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_41e128c2-2b7f-49f0-b984-27c2162d9ff8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_038f1f4f-d6c8-42b1-9697-0cc1ec555808">
               <gml:surfaceMember>
@@ -13181,7 +13181,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_435a0c74-1c4e-4d6d-aed3-91027bd7451d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e16337d1-7a97-43ab-bda9-5337ca8a3cd3">
               <gml:surfaceMember>
@@ -13199,7 +13199,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2381f976-e3d4-4aac-ae3d-e4bb732ae1be">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_76adb0a1-11e2-4b8c-b90a-50bea0969624">
               <gml:surfaceMember>
@@ -13217,7 +13217,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5294a000-04c1-41f6-8935-0ed123fb6fc5">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9fc22948-a0ef-4a25-9b09-6ac01d89896b">
               <gml:surfaceMember>
@@ -13235,7 +13235,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_75172a9d-1d6a-4d2a-844c-6a3f62bd08d2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b74aaa3d-656c-499c-86d5-6f3633a8767f">
               <gml:surfaceMember>
@@ -13253,7 +13253,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_267ab6f7-c486-4c61-b4bc-6f957b98ade5">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2ddaeb83-b812-4821-bf5d-f5023c08b76f">
               <gml:surfaceMember>
@@ -13270,41 +13270,41 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>7</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wkj">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wkj</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wkj</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_1010</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_8ba5d1aa-c171-4bc7-8147-6d8ebbd4fd91">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -13393,7 +13393,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_321c6fc4-6216-40ae-a65c-3b39abf08579">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_b1bc7a3a-9ea5-4775-bca3-bd2df29ff8bd">
                   <gml:surfaceMember>
@@ -13411,7 +13411,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c7d8fb78-76b1-49d4-b52f-6945f6acad95">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_9a8e24ae-c656-48b2-b78d-04a0c7ee96a9">
                   <gml:surfaceMember>
@@ -13429,7 +13429,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_bc78dc29-f9cf-4b18-8825-740d12feb04c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_241430fa-2aaa-46dc-99d4-5111caa62100">
                   <gml:surfaceMember>
@@ -13447,7 +13447,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_2616ffc9-f34d-4345-9427-43b07363de6b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_dfba0023-f33d-4e36-824e-12631e718663">
                   <gml:surfaceMember>
@@ -13465,7 +13465,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_6b8ed961-d65f-42db-b122-dc5b0b10928b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_7458e010-bea1-41ef-af65-e675c9fd4334">
                   <gml:surfaceMember>
@@ -13483,7 +13483,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e0336d35-ba28-4fb0-a309-fd3b7ee98d69">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_33a7b149-2802-4c12-ab83-9d1be76b7bae">
                   <gml:surfaceMember>
@@ -13501,7 +13501,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ed0856ee-a790-451f-a11b-a8749328c2f9">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f05d23df-f846-49aa-879b-ddc913fb6cb9">
                   <gml:surfaceMember>
@@ -13519,7 +13519,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_7f46ff91-d70d-4370-a031-b4a0f85ca290">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3e174d9b-8903-41bd-825e-bf30a4099ac7">
                   <gml:surfaceMember>
@@ -13537,7 +13537,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_da49102e-2750-4bfa-b3ef-5537c0eeb4bb">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a3eb4ef4-4910-4a4d-8231-0d90bd2c2245">
                   <gml:surfaceMember>
@@ -13555,7 +13555,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_33b29cd4-c039-48fa-9634-26bc098fdf93">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_4ef6e87f-9038-4a02-8380-627e5bd15317">
                   <gml:surfaceMember>
@@ -13573,7 +13573,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_e56261f0-7370-4ffc-8a50-2f669b900f23">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_ef971242-6c1f-4680-b7c6-8b5aa99af890">
                   <gml:surfaceMember>
@@ -13591,7 +13591,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_1415082f-31f5-4095-a5ce-ae347dd5eddf">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_2d531e9d-5c27-4325-a949-165f8b8ca2d4">
                   <gml:surfaceMember>
@@ -13609,7 +13609,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -13629,7 +13629,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46509967">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -13687,7 +13687,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_f1c71253-adbc-4db8-9d28-f5040b2648d0">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3584bd74-6c95-4e8f-9399-26ab8f9417c7">
                   <gml:surfaceMember>
@@ -13705,7 +13705,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e9137e74-a9f9-42cb-8245-1c4f87a08f62">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_af6bb090-84e2-485b-8dc6-ca101c161f83">
                   <gml:surfaceMember>
@@ -13723,7 +13723,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_34c25321-2af0-41a4-b749-9a9a14a92f14">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_dd2bcbe6-3d25-4a3c-9048-3d29ed17d478">
                   <gml:surfaceMember>
@@ -13741,7 +13741,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ce2b108d-d0a5-4391-8e97-97d660cebff7">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e9f2f795-6c71-4cdd-b155-4b9074b25267">
                   <gml:surfaceMember>
@@ -13759,7 +13759,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_4818051b-7c5b-4b04-babc-d3ca8177b972">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_d64986b4-1f84-49a4-aaff-808ae0c05bbb">
                   <gml:surfaceMember>
@@ -13777,7 +13777,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_6a43a10f-61c6-4d7f-847a-9efc9836c1e3">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_22a491c0-9c16-4937-afb1-f69021af6b50">
                   <gml:surfaceMember>
@@ -13795,7 +13795,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -13814,34 +13814,34 @@
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>10</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>10</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wxO">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wxO</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wxO</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -13909,7 +13909,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_05dabcd0-25bd-4a27-a04a-2e26a0732cb9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_59c543ed-c7aa-4168-a494-fe1ea9414c2e">
               <gml:surfaceMember>
@@ -13927,7 +13927,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5b0a4de1-38f3-4eb3-a712-8a35f1a368c9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e533e191-f6ef-4bc8-a8cb-b004f1237e5b">
               <gml:surfaceMember>
@@ -13945,7 +13945,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_27ae9195-fcf6-4c36-8b2b-50d356de541d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ae2466bd-5699-4234-9f8a-3de95db59575">
               <gml:surfaceMember>
@@ -13963,7 +13963,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3816f4a4-538e-457f-9fe2-e06da4e1306a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b836a233-4ace-4050-a84b-b8d801a18514">
               <gml:surfaceMember>
@@ -13981,7 +13981,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_95c9584e-0430-49c1-957b-f84e2a9165ca">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e51c0cba-8076-4f2f-9f32-c29c2d8c583d">
               <gml:surfaceMember>
@@ -13999,7 +13999,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_42322f0c-9da1-4598-b88c-79cdfab64696">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c351853c-ce23-4be5-ae35-b4dfa35223fb">
               <gml:surfaceMember>
@@ -14017,7 +14017,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_e9583175-4e5a-46d5-a8df-360a6064634b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c1fd4912-707f-43df-aacf-512cc820977b">
               <gml:surfaceMember>
@@ -14035,7 +14035,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_2b7b5954-98bb-4985-9572-e120c7aacd6e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8cc89d32-1a63-4dd6-9c89-ccc933f1aea5">
               <gml:surfaceMember>
@@ -14052,41 +14052,41 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>29</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>29</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wYp">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wYp</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wYp</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_1010</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_69cae141-a233-4a9c-8639-951da70760b2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -14159,7 +14159,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_aca24671-2b18-41c1-ac23-5a0ecf9d8a72">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_411a1fe2-58bd-4c16-8c8e-c78e79e4de49">
                   <gml:surfaceMember>
@@ -14177,7 +14177,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_6c635b16-1b53-4a34-a260-65de9409be98">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_824f3f76-883f-43c3-876b-7b442e7da291">
                   <gml:surfaceMember>
@@ -14195,7 +14195,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e6f31d16-44bd-46e3-bd53-b49180d81ecf">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e0ef3cd2-ced9-49b7-8bfd-56ea2fa82622">
                   <gml:surfaceMember>
@@ -14213,7 +14213,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_aff7365f-04e5-4dca-8312-8647bdcef8e5">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_711a80b8-95ca-4a6b-b649-b4f89345d913">
                   <gml:surfaceMember>
@@ -14231,7 +14231,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_32904062-39d5-41b3-81ae-5d66679e5f9a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_2acad3f1-4bcf-4917-b0a7-95713fd4879f">
                   <gml:surfaceMember>
@@ -14249,7 +14249,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_f6857190-481d-4259-8777-ad09bf084b4d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_598014b4-c248-43f5-a0ac-9efe92cd9433">
                   <gml:surfaceMember>
@@ -14267,7 +14267,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_9fd48f34-c0ea-42b6-bedd-cc5a524caa0c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a1990105-3e06-4670-8239-6b82fb851d69">
                   <gml:surfaceMember>
@@ -14285,7 +14285,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_84653002-31da-43e4-b8f9-a4314305294a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_feb42c6c-eb0b-4b27-bed6-4e8c7279e47f">
                   <gml:surfaceMember>
@@ -14303,7 +14303,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_848dc657-58f2-4a74-b5b0-088e5ccb71b1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -14321,7 +14321,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -14339,7 +14339,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c0db1714-8363-4319-908f-8c4961da4d78">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -14362,7 +14362,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -14382,7 +14382,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_a7nPHHDZLJUMZ1q8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -14435,7 +14435,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_059cb17e-86f8-4bce-acaa-61a379f2a024">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_b0b51492-9883-4e89-8da9-d9484a0de936">
                   <gml:surfaceMember>
@@ -14453,7 +14453,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_86892c63-90b1-4b20-8ef8-1f8fc7107c88">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_fed47ce1-d0fb-4749-ae2f-12c85c61efc7">
                   <gml:surfaceMember>
@@ -14471,7 +14471,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_588ae7b3-10c1-42de-8ae7-58c7b0bd8f5f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e9f3d19c-56eb-4bf8-bcf7-997075478c11">
                   <gml:surfaceMember>
@@ -14489,7 +14489,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_4c5a10d5-8b2e-46e2-8123-a819b45f893e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f40530ef-e0a9-436c-a040-c3fbed3081d3">
                   <gml:surfaceMember>
@@ -14507,7 +14507,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_c67da0c2-e454-493a-84df-d8c99d28cf4a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_fa62c91f-6f39-45a7-be63-9a57b7fc7169">
                   <gml:surfaceMember>
@@ -14525,7 +14525,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -14551,54 +14551,54 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>8</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>8</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>8</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>8</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010KC">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010KC</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010KC</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -14654,7 +14654,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_a0ad15aa-df3f-4861-9e0e-21686e27d31e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1e001204-9c8e-404f-8a03-6199e4f27e10">
               <gml:surfaceMember>
@@ -14672,7 +14672,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_4226689e-a43b-4e91-8c64-f702e51d11e9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ddf584d5-15d7-4616-b280-6b2584011a47">
               <gml:surfaceMember>
@@ -14690,7 +14690,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_d5d28507-97a0-4a77-a6d4-338a5c20b846">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b6345b43-f5b9-4f63-a1a0-f423d5d5645b">
               <gml:surfaceMember>
@@ -14708,7 +14708,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b01c98c6-52e3-4f5d-81ae-be787eb1adaa">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0d7bfc85-6eb3-479d-9c39-24af5bc6948f">
               <gml:surfaceMember>
@@ -14726,7 +14726,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_5ebe8a33-53af-44ba-9c48-659934a6dc25">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e0cc9679-99e4-45b1-abf9-31fc8bb79c32">
               <gml:surfaceMember>
@@ -14744,7 +14744,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_ecef003c-8ced-41bd-b2c4-625134a91532">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d6e920d3-f603-4c05-87a3-b7b4dbfaa9eb">
               <gml:surfaceMember>
@@ -14761,16 +14761,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000vgR">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000vgR</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000vgR</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -14829,7 +14829,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b696a629-1faf-4f43-aa11-4762a12ea016">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9311175d-6e15-4117-9df0-533c6c6172bf">
               <gml:surfaceMember>
@@ -14847,7 +14847,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b96497e2-f6dd-4f95-80a9-cc318e00732c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_19993eae-7ffb-45ad-8ac5-a6754495b04f">
               <gml:surfaceMember>
@@ -14865,7 +14865,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3e2c6d22-12fc-4268-ba63-a147f135f72f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e9e50d74-78b2-49af-a0f8-2c1f2f916766">
               <gml:surfaceMember>
@@ -14883,7 +14883,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5396c984-8303-4686-9327-278d83d3bd8c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9de377c2-4462-4893-bb3d-97f3144e5a26">
               <gml:surfaceMember>
@@ -14901,7 +14901,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5f157195-4053-41a5-8b9c-1e4bcc9b13a4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6890fbd3-bd10-4885-a6b3-d4f0363ebad2">
               <gml:surfaceMember>
@@ -14919,7 +14919,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3491bb6e-038c-40e0-b9a5-7752d8835176">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_35de523c-b6cd-44f1-b5a5-934da3acaa93">
               <gml:surfaceMember>
@@ -14937,7 +14937,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_2eed6ed2-de93-4af4-9017-015f9f56c329">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9525cb96-9631-4fd4-a602-2d8355959004">
               <gml:surfaceMember>
@@ -14955,7 +14955,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_27ed5346-c7e5-4dbe-8d5e-9885e215c3e6">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a9ace1d3-00d4-4041-a5d5-a9d8f49ece4d">
               <gml:surfaceMember>
@@ -14973,7 +14973,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_7acf7804-60bd-4924-99fc-844ae968c602">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c5729e80-9507-421f-9e00-a7398c2946db">
               <gml:surfaceMember>
@@ -14990,34 +14990,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>11</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>11</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000x7l">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000x7l</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000x7l</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -15109,7 +15109,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_6984d730-14bb-4bb9-9761-534a7a0fd0a2">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c3416d1d-72f5-49e1-9463-e4ff8f57a7e0">
               <gml:surfaceMember>
@@ -15127,7 +15127,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_27e1a5a3-57b7-46da-b561-ccdb410de293">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_83fac1db-e70e-4cbe-8268-624f9c72a15c">
               <gml:surfaceMember>
@@ -15145,7 +15145,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7b8014e4-4763-4b43-9f86-be482ada2715">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_707161f0-ebd4-4966-a36d-14c03bc84f37">
               <gml:surfaceMember>
@@ -15163,7 +15163,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_434f716d-9d0a-43be-b0df-a4a64a7af31d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2837830b-cd67-4869-b034-df522ea40131">
               <gml:surfaceMember>
@@ -15181,7 +15181,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3659c9b2-4bb8-499c-963d-4f807435ae33">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ca9dccf8-c2cc-4932-ac9e-fd7bf6aff3a0">
               <gml:surfaceMember>
@@ -15199,7 +15199,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_6750a24f-5d46-4932-96fa-d5a6ad0a8ac7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3fc2bb42-e082-4de1-9f5f-4097736887b6">
               <gml:surfaceMember>
@@ -15217,7 +15217,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_edf2089f-09a6-4ba4-bb69-545bdb4a08c6">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d77ca281-a572-4188-9258-7e0259fb597f">
               <gml:surfaceMember>
@@ -15235,7 +15235,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_1637ad69-d07c-45fe-9400-6426e964f1ca">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f169ce09-aa1d-4742-9d75-0fb59f76eb4f">
               <gml:surfaceMember>
@@ -15253,7 +15253,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_bc69464b-2372-4f41-8f2f-cce955fca66e">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_eeb32371-7551-4455-b069-50b32fe0836b">
               <gml:surfaceMember>
@@ -15271,7 +15271,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_568ed727-84e0-4a87-919c-0d29c09675e9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_65625d52-3341-4d50-8225-8b5b20625080">
               <gml:surfaceMember>
@@ -15289,7 +15289,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_543a9a38-0f49-404d-8aeb-f0a023270bca">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_770d4c17-2233-4855-a96e-7085a7b4277c">
               <gml:surfaceMember>
@@ -15307,7 +15307,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_f4f8925b-13d5-496c-8a91-45d23b0c5ed4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ab5be36b-4588-411a-bc4d-7697d75dcb69">
               <gml:surfaceMember>
@@ -15324,34 +15324,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>24</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>24</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wVx">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wVx</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wVx</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -15413,7 +15413,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b84ded86-89aa-44d0-91f7-dc37b62b29f9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3a35e298-3599-4776-a3ed-33a54de1bc3b">
               <gml:surfaceMember>
@@ -15431,7 +15431,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_0d84995a-8b9a-4d7d-a8fe-5a08ffebf113">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_00877e8f-8f15-42e4-8d03-5f458cd6e52e">
               <gml:surfaceMember>
@@ -15449,7 +15449,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5b33de8d-5309-4312-aea8-b1155c0dca77">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5333c8c0-8d5c-4cc0-af37-d6c488edcd97">
               <gml:surfaceMember>
@@ -15467,7 +15467,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_3d4ab668-a18d-486b-853f-ac8f27379b00">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2183b82a-8951-463a-b976-81abaea2ae1a">
               <gml:surfaceMember>
@@ -15485,7 +15485,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_2b220c83-ca77-4692-8867-16b756a65418">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6a4bcea6-a071-414f-b98a-9afb3ce3dc96">
               <gml:surfaceMember>
@@ -15503,7 +15503,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_a49ce13e-9442-41c9-b00c-9492e479df71">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_292f52a8-ad83-4f4d-9268-e11bfddfab77">
               <gml:surfaceMember>
@@ -15521,7 +15521,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_c38f1a4d-08db-4e49-866c-99e69a154300">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6071aec3-08d3-4b5e-aa50-8bb03b355155">
               <gml:surfaceMember>
@@ -15538,34 +15538,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>24</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>24</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000wJJ">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000wJJ</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000wJJ</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -15621,7 +15621,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_59681a48-35af-4684-baef-be92fc6a7eb1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d81d4c17-97c8-4953-afcb-ad584bf70192">
               <gml:surfaceMember>
@@ -15639,7 +15639,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b7e104a8-5be0-46dc-a9ac-b02b1bc07d8c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_354aba02-d5f3-45e9-be35-3de158d86c51">
               <gml:surfaceMember>
@@ -15657,7 +15657,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_518a1c32-9b9d-42e5-a594-cbfcae035671">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e4d0eb63-7a97-4e97-8f32-637716772462">
               <gml:surfaceMember>
@@ -15675,7 +15675,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_054d3bd3-d30f-432b-8bec-bc9793994d74">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_95e282c5-8e46-4931-8b86-8d5b4ab55bf0">
               <gml:surfaceMember>
@@ -15693,7 +15693,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_f7b84c37-1ade-4d0b-8512-c9060b3daca1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f3efe034-1f1a-494d-9a87-77bcf5be66a8">
               <gml:surfaceMember>
@@ -15711,7 +15711,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_42822ebc-1407-4ac4-a2ad-8542a47ad188">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_84649a62-a9f9-4199-aba1-79ff306eaca9">
               <gml:surfaceMember>
@@ -15728,34 +15728,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>24</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>24</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xMQ">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xMQ</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xMQ</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -15811,7 +15811,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_52062961-4142-48db-8afc-2884bbb99f1d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_85029d56-7202-4e9a-968b-cfb3ee5f958a">
               <gml:surfaceMember>
@@ -15829,7 +15829,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_86e75cb8-4463-4b0e-807d-f466e3a0528a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f4ab0ad1-ee8d-4df9-9be2-02be5df45d41">
               <gml:surfaceMember>
@@ -15847,7 +15847,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_24bfb568-a4b3-4754-ac76-5f0e0baaedc7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_aaf15700-84be-42c0-b678-c4e0a01a91e1">
               <gml:surfaceMember>
@@ -15865,7 +15865,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_38b1a82d-d347-43ad-b7e2-5227baf3c8a9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3540ebe1-73eb-4da4-8be6-7430de3dd20d">
               <gml:surfaceMember>
@@ -15883,7 +15883,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_8ecf4171-a72a-409c-877d-597c77eb1f04">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d36b8e0f-e0f0-40cf-b984-563857aea636">
               <gml:surfaceMember>
@@ -15901,7 +15901,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_90c5b53c-846b-4254-b87a-4e79584f7ce5">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_2256bee9-2150-4f9f-9393-316bffe3f358">
               <gml:surfaceMember>
@@ -15918,34 +15918,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>20</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>20</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010lt">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010lt</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010lt</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -16001,7 +16001,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_02006aa5-de92-4cc1-9bb0-d33248efc740">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_92966ead-e195-4124-b4e3-79017b50a178">
               <gml:surfaceMember>
@@ -16019,7 +16019,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_89f5f37f-2397-42f9-a2ce-8cdefe470a10">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a9aa0293-e98d-4dba-962c-b67795b24bab">
               <gml:surfaceMember>
@@ -16037,7 +16037,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_bbe7dfdc-d570-40ff-a929-c5dc35e1c136">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_0cbc6d22-640b-459a-95c0-445dc1810310">
               <gml:surfaceMember>
@@ -16055,7 +16055,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5bc9c127-e6fd-4323-8798-2ec6ec657862">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1be87378-7a4b-463f-afab-6a21b03c7d6d">
               <gml:surfaceMember>
@@ -16073,7 +16073,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_07f79209-51cd-4096-9307-55c8378bdde6">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_25c62c02-7957-40c4-88d6-ba8b5cf5f3da">
               <gml:surfaceMember>
@@ -16091,7 +16091,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_048b24f4-3b1a-41b5-bd40-5c03a64078ba">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_af1891e8-257f-4897-a93c-6c5f32ec15f4">
               <gml:surfaceMember>
@@ -16108,16 +16108,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000xOT">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000xOT</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000xOT</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -16176,7 +16176,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_cdfc4717-f60e-45b6-aba7-bfb540b18d5b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5ce7ddda-c058-447d-9ce2-a0d38c7ce6de">
               <gml:surfaceMember>
@@ -16194,7 +16194,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9cb245b3-a410-4418-845e-9c42803060ef">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5da9c4f0-63d7-44ec-a098-82b202b08b8f">
               <gml:surfaceMember>
@@ -16212,7 +16212,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b27f3105-02ea-498f-9b6f-129c777c08a8">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_03b3e1be-91e0-411d-97bc-0cddf515809c">
               <gml:surfaceMember>
@@ -16230,7 +16230,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_39d75d76-1109-4d63-be0d-730e209babf1">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_170beb5b-a542-4222-b031-9890d153108b">
               <gml:surfaceMember>
@@ -16248,7 +16248,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9175fe7e-b5aa-42a3-9a13-9c5f9f7122bb">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_b9eb6f96-303b-452a-8fb9-22134ee5f7cc">
               <gml:surfaceMember>
@@ -16266,7 +16266,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5a68f864-7599-403f-aa06-edf020b344f4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_ae00878c-3075-47fa-9431-b4900d93816d">
               <gml:surfaceMember>
@@ -16284,7 +16284,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_57efac5b-e53f-4240-81d9-15f454a53563">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f7c4dbf2-6247-4e85-b266-28e078cc60fa">
               <gml:surfaceMember>
@@ -16302,7 +16302,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_5fa287a4-0243-4a83-9384-e3577d76434a">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5807e2ff-355d-4727-9a29-a0a8aa285cf0">
               <gml:surfaceMember>
@@ -16320,7 +16320,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_ff20fcaa-3331-48b9-b48e-246cc82ff19d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_414f1908-2823-4a0e-bbdc-1b3cbdef8aa7">
               <gml:surfaceMember>
@@ -16337,34 +16337,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>9</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>9</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010Jq">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010Jq</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010Jq</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -16420,7 +16420,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b46cdbcf-9bf1-4c42-b6a1-91adfd1e447d">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_501e4f1e-5dd5-42ad-810b-f8c9b6472380">
               <gml:surfaceMember>
@@ -16438,7 +16438,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_816ee797-3e76-4baa-a432-61a7a941557c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_69eeea34-9771-4f72-bf62-932e823daa38">
               <gml:surfaceMember>
@@ -16456,7 +16456,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_ca813534-b7f8-4ce9-be3b-89d9084a6482">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_47409cd8-318d-42c6-b6b3-912e041b1939">
               <gml:surfaceMember>
@@ -16474,7 +16474,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_5a0f6f57-a236-4971-b40e-1927c954b5fc">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_126ccfa1-2059-45cf-aefb-0f46cde9a59b">
               <gml:surfaceMember>
@@ -16492,7 +16492,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_723f3edf-8de1-4f33-bc9d-841956f300a9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_3f0e6062-9195-4268-a625-aa1928c96c33">
               <gml:surfaceMember>
@@ -16510,7 +16510,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_a29e3915-e346-43a8-ba0d-325ab70c3fac">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5d5f53f1-d441-434c-9a0f-9dca48526190">
               <gml:surfaceMember>
@@ -16527,16 +16527,16 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000vx3">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000vx3</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000vx3</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -16595,7 +16595,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_83757367-c7b7-4340-8d25-65a393728016">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_192b91cd-9db6-486d-979c-2eacbc4bf837">
               <gml:surfaceMember>
@@ -16613,7 +16613,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_64f146a5-c3f9-4c7c-a112-142678bc8cfd">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_6d22ee92-6fd0-43cd-b436-5b6a8bd040e8">
               <gml:surfaceMember>
@@ -16631,7 +16631,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9bccab3e-5953-45a1-ab63-3f1688af87d3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_96873cc7-2809-400d-88f9-7db0cff3c5e2">
               <gml:surfaceMember>
@@ -16649,7 +16649,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_eb8db5ed-df85-4038-8fbe-01c583090c68">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_d5b84df7-15eb-4860-946b-152d39eda521">
               <gml:surfaceMember>
@@ -16667,7 +16667,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_83669ce0-e05e-448e-b3f2-6ece3145d856">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_1e59ea84-f240-4f02-9807-72cac082ac22">
               <gml:surfaceMember>
@@ -16685,7 +16685,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_8ad82aae-ddb4-41e7-8d9d-ae7080f709e7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_23ec056c-2b01-4b91-8984-478c473357fb">
               <gml:surfaceMember>
@@ -16703,7 +16703,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_7ff10c30-d905-4acb-8053-9d2e65c1802f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_e8f701ad-4c72-4ae7-9d22-dcfbb6b8ed68">
               <gml:surfaceMember>
@@ -16721,7 +16721,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_002420a2-c104-4c44-91fb-ff35ce0875be">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_41f3c31e-d895-4b04-92f7-36899a0f73cc">
               <gml:surfaceMember>
@@ -16739,7 +16739,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_bfffdb84-c0d4-4939-8cd4-52009dbe9515">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_42aeeb3f-a558-47b4-af21-46bab264c3f7">
               <gml:surfaceMember>
@@ -16756,34 +16756,34 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>30</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>30</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200010Ij">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200010Ij</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200010Ij</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -16839,7 +16839,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_4d5fc4a9-6e72-4107-afb1-e662208017c9">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_9f9292c6-ee6a-4eea-a98d-12208b58bb3a">
               <gml:surfaceMember>
@@ -16857,7 +16857,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_cd6bc55b-ee5b-4891-b7e0-ea46d1c2d792">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a87e47f6-2ed3-4c03-9740-6f760e25a943">
               <gml:surfaceMember>
@@ -16875,7 +16875,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_6a7bf29b-eb22-4e3c-a558-0607f041c9bb">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_10976b4c-7b5b-4566-bbe0-937800037521">
               <gml:surfaceMember>
@@ -16893,7 +16893,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_33774558-1634-4af3-9357-fb4b4c06ed01">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a7610e29-2d06-45ba-b055-0379a51a530e">
               <gml:surfaceMember>
@@ -16911,7 +16911,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_1e5cdf48-5755-4ef3-bc42-957d03088e0b">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5f292ccb-c41f-4bea-b850-bcee237db86d">
               <gml:surfaceMember>
@@ -16929,7 +16929,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_2eef74f8-e622-4de6-abaa-3345c07167ff">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_522c97e3-ec5a-4dc7-99d7-341a7a9183bc">
               <gml:surfaceMember>
@@ -16946,23 +16946,23 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL20000vtm">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL20000vtm</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL20000vtm</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_1010</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_49614d6a-7ade-41b7-a96e-7a0e6d8ca4e4">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -17053,7 +17053,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_39d97b69-3ccc-4550-a373-b84b07ae78b1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a6e2fea4-e1fb-4b21-a835-c473be5ed527">
                   <gml:surfaceMember>
@@ -17071,7 +17071,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_f0fba911-f456-46ee-bcdc-f09bbff936ae">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_d4f4414f-2b98-4c59-953d-6cfc32196ce3">
                   <gml:surfaceMember>
@@ -17089,7 +17089,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_12bee25e-1a7b-4014-83d5-f0b6bf69ccde">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e9c531d9-aa9b-4a6d-8973-9874728622cb">
                   <gml:surfaceMember>
@@ -17107,7 +17107,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_51f5a9aa-a7a7-433d-803f-78f3d2297684">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_9aee2cf0-73d9-4329-966e-8faf21e2a1f6">
                   <gml:surfaceMember>
@@ -17125,7 +17125,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_03b45f7f-5a2f-4f4c-8741-dd0f5032ce98">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_662b7ba7-3f9a-4f1b-88c1-549b852a4462">
                   <gml:surfaceMember>
@@ -17143,7 +17143,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_71e18a98-6948-45e3-b8a6-e52c8b294525">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6942e1b3-8655-4ea5-a850-874e13e8f713">
                   <gml:surfaceMember>
@@ -17161,7 +17161,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d2d8ab7b-008c-4c7b-a693-1ba2e06369a4">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6c3db9f8-63a3-4977-b58c-d3feffb065fe">
                   <gml:surfaceMember>
@@ -17179,7 +17179,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_428f5365-8b7f-40bd-9f49-803367c1a0c5">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_0b6dfb8c-e71b-4df2-8526-7c6d72150721">
                   <gml:surfaceMember>
@@ -17197,7 +17197,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_c8682cc2-9ccb-455f-b00a-aedbff1382ff">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_525be8b5-1a0a-4e55-af49-ecadc180213b">
                   <gml:surfaceMember>
@@ -17215,7 +17215,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_e6ddc6ec-e7c1-4d4d-8edb-0594accbd151">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e7240d13-5340-4d24-9450-a4d5b33db52c">
                   <gml:surfaceMember>
@@ -17233,7 +17233,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_fc7224c4-6baa-4c69-9715-684f104a9b79">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_801bbed2-18b8-417a-8895-2b23cddffc1e">
                   <gml:surfaceMember>
@@ -17251,7 +17251,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_dedb711e-fc71-490e-b438-995c57c0e99e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -17269,7 +17269,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -17287,7 +17287,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_78146294-70ac-4a28-a565-bbeccb62c456">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -17305,7 +17305,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -17325,7 +17325,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_qQ8htOLxZubeBGeW">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -17378,7 +17378,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_16c21636-3226-44e6-9ba0-19cb97c2f8fa">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_eb6edecf-6b3f-441b-96e1-7e9f9bc67381">
                   <gml:surfaceMember>
@@ -17396,7 +17396,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_049cf357-55e2-4d15-8724-c31526d48583">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_5f15cedb-5978-46e1-a4e2-90d890370749">
                   <gml:surfaceMember>
@@ -17414,7 +17414,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c34f81fe-5506-4edb-b072-71cd91d34076">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_33379d2e-222d-4919-993c-7054337d84a3">
                   <gml:surfaceMember>
@@ -17432,7 +17432,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_04c5c363-6202-41d2-b723-691d7b84134f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f20db079-13ce-44e7-8f6f-f3b9bf9cef85">
                   <gml:surfaceMember>
@@ -17450,7 +17450,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_d02a3049-327e-4de4-ac5a-ce55610b6206">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6b756408-c6c7-454d-ae72-0ebaf4e42c10">
                   <gml:surfaceMember>
@@ -17468,7 +17468,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -17494,54 +17494,54 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>14</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>14</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>14</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>14</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW28AL0000727k">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW28AL0000727k</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW28AL0000727k</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="DatenquelleDachhoehe">
         <gen:value>1000</gen:value>
       </gen:stringAttribute>
@@ -17600,7 +17600,7 @@
       </bldg:lod2TerrainIntersection>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_b5a5c0e3-cffe-4998-8fcc-a47f7bbbf7d5">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_5449b18e-2f29-4a2d-b786-d846877baa28">
               <gml:surfaceMember>
@@ -17618,7 +17618,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_bedd42b6-413a-4bbb-921b-997e513641fa">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_cc48c68b-3f5d-4650-ac3a-fa94cef50ff1">
               <gml:surfaceMember>
@@ -17636,7 +17636,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_4ab8daf3-174e-4d8e-968e-046c9765829c">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c51ca01e-d445-4a72-80d2-a3fe507ee79e">
               <gml:surfaceMember>
@@ -17654,7 +17654,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_7e4cec47-a3b6-4c76-b93e-88b67c84a581">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_8f65a6ae-ade4-44c9-8e41-a1fc596b8203">
               <gml:surfaceMember>
@@ -17672,7 +17672,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_33f3243d-b72d-4cbd-a874-668b721ec091">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_794e0d8b-2750-4ea3-8912-579b699c3072">
               <gml:surfaceMember>
@@ -17690,7 +17690,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:WallSurface gml:id="UUID_9ba63fd0-0519-4968-b616-6970970d9a0f">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_a45466b5-26a3-443b-aae7-e6b0f532fe9a">
               <gml:surfaceMember>
@@ -17708,7 +17708,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_32f5c6c9-d475-468f-9e97-da8e385fcaba">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_f7197b1b-0472-4ba3-ae34-057a742aa162">
               <gml:surfaceMember>
@@ -17726,7 +17726,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:RoofSurface gml:id="UUID_84b05949-5c3d-4eab-9433-e8ac3eb6a3a3">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_883ac5b8-5d54-4f6b-945d-6397ad19b275">
               <gml:surfaceMember>
@@ -17744,7 +17744,7 @@
       </bldg:boundedBy>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="UUID_d140fc2e-726e-446a-be05-41c4a8ddb855">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <bldg:lod2MultiSurface>
             <gml:MultiSurface gml:id="UUID_c224e6a5-1e83-49b8-934f-52cc0718dbb2">
               <gml:surfaceMember>
@@ -17761,23 +17761,23 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
     </bldg:Building>
-  </core:cityObjectMember>
-  <core:cityObjectMember>
+  </cityObjectMember>
+  <cityObjectMember>
     <bldg:Building gml:id="DENW27AL200002Cl">
-      <core:creationDate>2018-02-05</core:creationDate>
-      <core:externalReference>
-        <core:informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</core:informationSystem>
-        <core:externalObject>
-          <core:name>DENW27AL200002Cl</core:name>
-        </core:externalObject>
-      </core:externalReference>
+      <creationDate>2018-02-05</creationDate>
+      <externalReference>
+        <informationSystem>http://repository.gdi-de.org/schemas/adv/citygml/fdv/art.htm#_9100</informationSystem>
+        <externalObject>
+          <name>DENW27AL200002Cl</name>
+        </externalObject>
+      </externalReference>
       <gen:stringAttribute name="Gemeindeschluessel">
         <gen:value>05120000</gen:value>
       </gen:stringAttribute>
       <bldg:function>31001_3022</bldg:function>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="UUID_7043f546-d3d7-486f-8132-dbcb367fb7d7">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -17829,7 +17829,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_dba04de3-819a-41fd-b985-8ea2eae13207">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_06e90e05-9c96-41a2-9061-6fdb044df98a">
                   <gml:surfaceMember>
@@ -17847,7 +17847,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_754b6391-457a-4777-b314-6628bc87bafa">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_856a01ad-5f3f-4bd0-809c-0823fbe33aa2">
                   <gml:surfaceMember>
@@ -17865,7 +17865,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_291c2097-a1b3-44fe-a43b-3f98355ee49a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_b501652f-3c35-41da-8971-d2a3b22f1702">
                   <gml:surfaceMember>
@@ -17883,7 +17883,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_23518a12-362e-4777-8088-5365607b28ad">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3a5878f9-1690-44d8-9c0d-6ac2c44fc2d8">
                   <gml:surfaceMember>
@@ -17901,7 +17901,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -17919,7 +17919,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -17939,7 +17939,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_CUNzOov9HWTfJJsY">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -18053,7 +18053,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_f52f8bbf-adbf-4240-9819-74f39db07cb1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_43b6872a-09dd-4860-93a3-0e70d61c4136">
                   <gml:surfaceMember>
@@ -18071,7 +18071,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ba23c35a-3d02-408c-aa03-b91494c02693">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_372b8665-a31e-41e5-b930-a5b49c339ec8">
                   <gml:surfaceMember>
@@ -18089,7 +18089,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_581b3f18-86dc-4ec0-84d9-407dc79b27a4">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_05dca9c5-a900-4f3f-bab8-fe6991d4bfee">
                   <gml:surfaceMember>
@@ -18107,7 +18107,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c0527661-d566-4059-b98b-6fbb17b5ce94">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_2882dd2b-f694-412d-bb62-0e5796169003">
                   <gml:surfaceMember>
@@ -18125,7 +18125,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ad85881a-ab11-4208-8334-c16363fe5f27">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_736e9d3b-22d8-4bbc-9774-589a6e0e80de">
                   <gml:surfaceMember>
@@ -18143,7 +18143,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_6f0c3ef5-4993-45ec-94d6-f410645df86f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f19c7b6a-b527-4f9a-b733-5d385a20b0eb">
                   <gml:surfaceMember>
@@ -18161,7 +18161,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_484726ed-a92b-427f-85ce-8afb6c56c0d4">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e57af098-1d19-4358-9565-33eab1620706">
                   <gml:surfaceMember>
@@ -18179,7 +18179,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_e9dbb719-7b10-4288-ab4f-fa5ca09f01f5">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_d34fccb0-2f62-4025-8fa9-5243c794faa2">
                   <gml:surfaceMember>
@@ -18197,7 +18197,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d5e3d517-39d0-4398-9520-933cdfa80dbb">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18224,7 +18224,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18242,7 +18242,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a20abc2c-cd0e-4ff5-b6d8-d08b11a363d4">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18260,7 +18260,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18278,7 +18278,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_883da3c1-9db5-438d-aac9-e8c9b4d491d6">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18296,7 +18296,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18314,7 +18314,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_766a4a0f-33c9-46fb-b102-4a7b2f739d23">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18332,7 +18332,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18350,7 +18350,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_042d7ab9-0abc-4a22-ae61-55dd78e7f478">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18368,7 +18368,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18386,7 +18386,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_3b997702-d38d-4b94-8e3c-c8e0cb7a9212">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18404,7 +18404,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18422,7 +18422,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_7f4b4e6c-f245-4d87-9e30-7156c68e0460">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18440,7 +18440,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18457,28 +18457,28 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46509981">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -18550,7 +18550,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ce7eab29-62fd-4ad1-b2b0-28f98f258326">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_4b71d5d8-3bca-4b29-8ca8-32b6f05b4d45">
                   <gml:surfaceMember>
@@ -18568,7 +18568,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_9270e446-608f-4296-8c85-a57a3f9f0770">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3ff232ea-5da4-4642-adc9-27f6911875cc">
                   <gml:surfaceMember>
@@ -18586,7 +18586,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_5343f8bb-4c78-404f-a08c-38a4b52ddbc7">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6f589b13-9623-4394-964a-321e190b5175">
                   <gml:surfaceMember>
@@ -18604,7 +18604,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_dbf5510b-324a-48b9-818b-41c048a743b4">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_2227bf16-7f8f-41ae-9461-416a849fcf71">
                   <gml:surfaceMember>
@@ -18622,7 +18622,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_82522a2c-69c3-4f7c-b8ac-1e4b0041dea9">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_4917b89d-306e-4030-bd8f-80199f202619">
                   <gml:surfaceMember>
@@ -18640,7 +18640,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_460d2951-a96f-4ebc-919a-b7fff3960a94">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_4b7fae11-7948-4606-a34e-b43490f273f9">
                   <gml:surfaceMember>
@@ -18658,7 +18658,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18676,7 +18676,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_5da6b3a0-6275-4207-b6ef-df251a330685">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18694,7 +18694,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18712,7 +18712,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_48a9e6e6-ee37-4542-9be4-2baf87a44c5f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18730,7 +18730,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18750,7 +18750,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46509982">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -18808,7 +18808,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_538d38e8-4b0a-44cf-98db-714654cb2ebd">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f1e865cc-7d5f-444d-a5b7-6541b8dab2a8">
                   <gml:surfaceMember>
@@ -18826,7 +18826,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_359e953f-7141-49b4-95d7-d18b9cbca057">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_98084f13-55ac-40cc-b11c-0d19683f8c09">
                   <gml:surfaceMember>
@@ -18844,7 +18844,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_442b1193-17be-4235-89b7-0348018ca267">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_54c49e4e-46d7-478a-bc29-eb5b2afe3f6e">
                   <gml:surfaceMember>
@@ -18862,7 +18862,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_92f4e35b-5508-41f5-9bc6-1da15b6d5f6c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_fe6d65a8-957c-496b-9a97-cabc886f125f">
                   <gml:surfaceMember>
@@ -18880,7 +18880,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_59c999bd-9cba-407b-a4f2-34a6f83f028e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f6b995a4-d4b3-45f9-aef6-663a498a1b1d">
                   <gml:surfaceMember>
@@ -18898,7 +18898,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18916,7 +18916,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -18936,7 +18936,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46509983">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -18999,7 +18999,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c34fd5f5-eb6f-448f-aeb4-ae79550d1b60">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_79d59dba-6144-4bcd-a6de-912eb5a1e982">
                   <gml:surfaceMember>
@@ -19017,7 +19017,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_0fe27ad1-a5c9-412b-b5bb-cafe78d709ab">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_9ce6e699-8fed-4ec2-b1b2-1f20febaddc5">
                   <gml:surfaceMember>
@@ -19035,7 +19035,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_9c7350fa-4047-4bad-98f3-6c4d9e2f620c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1a4fb9d7-d3e6-46cc-8c93-7d924180caab">
                   <gml:surfaceMember>
@@ -19053,7 +19053,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_a8912750-63d6-4c8a-b3e9-37741baf4ad0">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8c3d2a89-08b8-4592-a3e4-b591f06d522b">
                   <gml:surfaceMember>
@@ -19071,7 +19071,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_5720f47c-d3d6-4541-8f02-8e538a45e498">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_13b25061-531f-4f0d-af02-b61530701e64">
                   <gml:surfaceMember>
@@ -19089,7 +19089,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_2678ca3b-784f-448e-937a-6ca4d1c0dc95">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19107,7 +19107,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19125,7 +19125,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19143,7 +19143,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d53f3529-62c2-483f-89fd-0b0a04e983b1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19161,7 +19161,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19179,7 +19179,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_70d3fbc5-91fd-45c6-b6de-ee5166dfb2e8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19197,7 +19197,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19217,7 +19217,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_1479134954866_46509984">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -19270,7 +19270,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_22195e0e-ae2f-472c-acd5-4b6a7b04d44c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_78794e88-3e83-470e-b86c-6a33233b89cf">
                   <gml:surfaceMember>
@@ -19288,7 +19288,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ed36e45e-bb4b-4fdb-bdf6-897f027e3e0a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_d04651f4-0bd5-4a8e-902f-a6af247bfb4c">
                   <gml:surfaceMember>
@@ -19306,7 +19306,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ce891b24-1a9d-4472-b191-f0bd7ae61116">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8cb992b8-19fb-4589-955e-95057f41e694">
                   <gml:surfaceMember>
@@ -19324,7 +19324,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_3d0465cb-bd3e-4b45-b176-71bdde5ea864">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_b8bfa162-13ed-411a-bbf1-66ad0bd21c0c">
                   <gml:surfaceMember>
@@ -19342,7 +19342,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_8c1dc687-a3db-4fa7-a504-0e26c008ed15">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_7ff48838-62c3-4ee7-bddd-580f331163b1">
                   <gml:surfaceMember>
@@ -19360,7 +19360,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_acd433f4-deec-4656-a71e-6679676f5c1b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19378,7 +19378,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19398,7 +19398,7 @@
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_IYoRush8rcwy5VVu">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -19489,7 +19489,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_9375ebcc-9e2a-4789-88d6-69e1a5fcbd2a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_24ab953f-3928-4991-b5b2-cd1508403319">
                   <gml:surfaceMember>
@@ -19507,7 +19507,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_664f3bb3-f2ab-4bf4-bf44-5994410b195d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a598e424-1bf1-4f3b-90ac-b69018618f6d">
                   <gml:surfaceMember>
@@ -19525,7 +19525,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_12a1430d-7fd1-4176-9d60-61acba981194">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e4e7876a-b20d-4f29-986f-6e4072dcd75c">
                   <gml:surfaceMember>
@@ -19543,7 +19543,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e5020346-2215-4d26-8071-880f9aad7a23">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_ff14fb36-b9fb-4ded-8fc4-033d8abd14f1">
                   <gml:surfaceMember>
@@ -19561,7 +19561,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_fb94ae53-9e7a-4206-881d-2b217fba4316">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3d596b6e-ebea-4af4-ab55-2b55f12d21e2">
                   <gml:surfaceMember>
@@ -19579,7 +19579,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a051d9bc-6a34-4adb-af8f-0ad7325adf87">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_78c18a68-ca07-4369-952f-e586725404ae">
                   <gml:surfaceMember>
@@ -19597,7 +19597,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a440317e-300c-4faa-b092-8e8f539bf21d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_500dc511-337c-4ac2-b9c0-e0148026e1f4">
                   <gml:surfaceMember>
@@ -19615,7 +19615,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_46990736-6957-4acc-a3cf-d19cc08cfe77">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a48ebc2b-9b23-4f17-b0b2-3e0d1d541276">
                   <gml:surfaceMember>
@@ -19633,7 +19633,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_ac21a2f1-76c3-46b2-8578-b60294c292bd">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6011ac27-d4c9-4fb0-9e05-e12f237bbc42">
                   <gml:surfaceMember>
@@ -19651,7 +19651,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_09128fde-274a-4e04-8194-5eab9fc5933e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19669,7 +19669,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19687,7 +19687,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_f2009859-c93c-42e8-a8d0-7416654c4f72">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19705,7 +19705,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19723,7 +19723,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_06eaee77-aebd-482b-9671-c7efc34159a5">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19741,7 +19741,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19758,28 +19758,28 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_Kykpr5x7WFOYc2xY">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -19831,7 +19831,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_80cecfd0-a846-4869-aa66-f355a3393b3d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1c58c635-f492-4861-a87e-9bf1493ea87f">
                   <gml:surfaceMember>
@@ -19849,7 +19849,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_74da2a8f-47a8-4283-a371-22cdab530fe3">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8448d1ba-3402-4d82-8d73-9cdbdc98ea8d">
                   <gml:surfaceMember>
@@ -19867,7 +19867,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_0ab6b51a-4971-412e-8ac9-63f2aa71ffc4">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_13c4c93a-a676-46c1-9d84-dc8dee16a87d">
                   <gml:surfaceMember>
@@ -19885,7 +19885,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_dcedeaf4-ec58-471a-a1c1-006905685250">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3169b8f8-67b9-4c51-888b-b672a3a4f2de">
                   <gml:surfaceMember>
@@ -19903,7 +19903,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_725625d4-b76a-4872-965b-eef3dca41f2a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_abda37b0-a7c2-45b5-a593-9b9d7c91f628">
                   <gml:surfaceMember>
@@ -19921,7 +19921,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -19938,28 +19938,28 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_N4xCpggBJ6yRiy4W">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -20011,7 +20011,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d547169e-ec23-456c-b043-ca33ba602bf3">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_660f8bdf-20ae-4f33-a0cc-bb8997b28771">
                   <gml:surfaceMember>
@@ -20029,7 +20029,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_5257d625-6070-4ffa-a2b2-b9b73ac00ac8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8a0c4567-b63e-47f8-9fda-076f673ae0c1">
                   <gml:surfaceMember>
@@ -20047,7 +20047,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_bd826f2d-2205-4432-b05c-a31473741449">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_996a6884-a75a-4156-8647-ffc091ea0130">
                   <gml:surfaceMember>
@@ -20065,7 +20065,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_37b0aa84-5e08-4ac0-b528-0bfba048390d">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_48a27eff-ea9a-4e0e-99b1-dca39ce94878">
                   <gml:surfaceMember>
@@ -20083,7 +20083,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_1eb398ed-72e3-4d97-90cd-c1d09021c157">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_db55cd4b-5dc1-4d5f-8a40-2c65984d0d6f">
                   <gml:surfaceMember>
@@ -20101,7 +20101,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20118,28 +20118,28 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_cqS0uhjfycU6D7xg">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -20204,7 +20204,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_11222ad2-5a67-4a39-926f-3cf947eea950">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8fd3c1a8-757a-4574-8a9c-a211a4e88346">
                   <gml:surfaceMember>
@@ -20222,7 +20222,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_aa2e6c72-c746-4f07-a567-6512a971d91b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_986ba16f-a224-46c0-9ae6-b5072a13f675">
                   <gml:surfaceMember>
@@ -20240,7 +20240,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_1b3ea393-bce8-4b80-a19a-c6012c3526f1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_6750df9b-cee2-4a28-9caf-db743e3660bf">
                   <gml:surfaceMember>
@@ -20258,7 +20258,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a1e9659a-16dc-482f-b997-8e703a1936d3">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1dd7bd9c-5450-4b1f-948f-367de8e64927">
                   <gml:surfaceMember>
@@ -20276,7 +20276,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_fa9b0a3d-97f6-44f0-9c8a-64dbb98a06dc">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_804e5406-86e3-4708-954b-de3766fc01eb">
                   <gml:surfaceMember>
@@ -20294,7 +20294,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_75876d34-32c2-48d6-bf24-253f0862c02f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_bfa26a74-8faf-461c-92d5-d23a2f51347c">
                   <gml:surfaceMember>
@@ -20312,7 +20312,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_2c2e41cb-cc36-457f-a7db-21dff22362c7">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_223ef945-87dd-4ca4-bcc5-ce94d35f9a89">
                   <gml:surfaceMember>
@@ -20330,7 +20330,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_3cfcb7ae-5d4d-4120-93fc-0cb1528cec55">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20348,7 +20348,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20365,28 +20365,28 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_Em0JqdNwt1Wmj4KY">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -20461,7 +20461,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_37ad3b3f-f961-4a9e-abcd-246b4a925c06">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a16c4b1f-4e1a-46da-bf96-c7591ed4a127">
                   <gml:surfaceMember>
@@ -20479,7 +20479,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_0e7998e9-8e3d-4580-ab0d-e170368d62ff">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_efa75a49-65c8-4866-8819-242fc5bebf51">
                   <gml:surfaceMember>
@@ -20497,7 +20497,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_e8398418-9ee4-429b-83bf-e1d4a4e2a555">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a7524391-cf68-4261-8585-06ba6263fa47">
                   <gml:surfaceMember>
@@ -20515,7 +20515,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_f25e8a2b-fd9e-48f3-ba08-7f3fba5848ac">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e5145c3f-a72b-40e0-adc9-36542a69ff12">
                   <gml:surfaceMember>
@@ -20533,7 +20533,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_309c94a3-f499-40ac-8653-3c70d92270fb">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20551,7 +20551,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20569,7 +20569,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_dc1de78d-f18f-4e0b-bdb2-2b37f3241099">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20587,7 +20587,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20605,7 +20605,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_bf4276d7-f31f-4142-9447-10e5c3ce378a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20623,7 +20623,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20641,7 +20641,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_89e0d601-5293-47b2-872d-06d5397cf00c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20659,7 +20659,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20677,7 +20677,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_7ace3a80-4d77-4412-8b54-2aae54135675">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20695,7 +20695,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -20712,28 +20712,28 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_R5HztT4u6WNA1mK5">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -20785,7 +20785,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_cf9b5d8a-552a-42b1-a760-86e2fb97b810">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_de814c5a-6ddf-4f1e-962b-6e0717789882">
                   <gml:surfaceMember>
@@ -20803,7 +20803,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_f99c6e05-f042-4f2d-a37c-27d8a8055c59">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_b5700b23-546d-46af-a2f4-a6ebe288b9fd">
                   <gml:surfaceMember>
@@ -20821,7 +20821,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_cd88a71f-440b-4ed0-9d2d-f4aa58bbf020">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_600f4480-7ce4-440f-8a55-c947953d8d7a">
                   <gml:surfaceMember>
@@ -20839,7 +20839,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d1ee83f8-a79b-44de-b8c3-60f1d4b835de">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_73892a88-79bb-4b11-adbc-02010ce00763">
                   <gml:surfaceMember>
@@ -20857,7 +20857,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_4813fe34-4c79-4235-98f8-0fa33fe85c1c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_01193849-b332-40eb-bba3-8e5da83c588e">
                   <gml:surfaceMember>
@@ -20875,7 +20875,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_d9d7b6be-e260-497b-93ba-0f8f5acfec16">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_223beac5-2e88-4bd1-9813-8304bc8e9c0a">
                   <gml:surfaceMember>
@@ -20892,28 +20892,28 @@
             </bldg:GroundSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:consistsOfBuildingPart>
         <bldg:BuildingPart gml:id="GUID_MDONSSyXskWedBVW">
-          <core:creationDate>2018-02-05</core:creationDate>
+          <creationDate>2018-02-05</creationDate>
           <gen:stringAttribute name="DatenquelleDachhoehe">
             <gen:value>1000</gen:value>
           </gen:stringAttribute>
@@ -21267,7 +21267,7 @@
           </bldg:lod2TerrainIntersection>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_7fa5756b-123e-443f-8521-d46e9aea18eb">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a52ee9e8-c8a1-41dd-a2cd-8af5f61a418a">
                   <gml:surfaceMember>
@@ -21285,7 +21285,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_3e4aefd3-b299-46ed-97ad-35943bc1685e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_18bd0038-7e8b-407d-b303-295e7486bf35">
                   <gml:surfaceMember>
@@ -21303,7 +21303,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a4dd5b2c-0056-4432-b2a8-ce3bcc12a8b3">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8bbff0ef-1565-4427-a902-1110ab1bf60e">
                   <gml:surfaceMember>
@@ -21321,7 +21321,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d1905817-3751-4d5f-b8c1-e2ddab454752">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e7283948-1960-4b97-866a-ef3ec90d7444">
                   <gml:surfaceMember>
@@ -21339,7 +21339,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_9b3198fb-0baa-4ea8-9db7-557fcdc0afcf">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a8540a8f-0c05-4415-8632-ff420341d8be">
                   <gml:surfaceMember>
@@ -21357,7 +21357,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_321b861d-d582-406b-abc6-ddf19350fd91">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_a5414b78-cd1e-41f6-a2bc-6fa046fbe1c9">
                   <gml:surfaceMember>
@@ -21375,7 +21375,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_f6edc2b1-180f-47c3-915f-7ce3da1b8713">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_0bcf5d53-7ca4-41e5-bc35-b49dbf9a8196">
                   <gml:surfaceMember>
@@ -21393,7 +21393,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_81e7e956-8f06-4a6e-99eb-4cb5ba84f95b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3792441f-a806-4ae1-a179-2bc9c3f1eb2f">
                   <gml:surfaceMember>
@@ -21411,7 +21411,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_40a44bee-194d-4b2b-a230-c2b72cdbe3e6">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1e06dbcb-4256-493c-8ca2-996a5f6907a0">
                   <gml:surfaceMember>
@@ -21429,7 +21429,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_0b0d3089-74df-4224-97e1-38af5a01c75c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_c89089ce-1462-442b-84f1-ae76bba71a09">
                   <gml:surfaceMember>
@@ -21447,7 +21447,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c5f11223-16e4-45d7-a594-3ef853ed9108">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_fc5aa5fa-1310-4b2f-8753-c3823c1b7683">
                   <gml:surfaceMember>
@@ -21465,7 +21465,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_f1313744-148b-4b81-afd3-19cca3f5dd94">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_cf3ea5bd-9742-44cd-99f3-63eb9255b838">
                   <gml:surfaceMember>
@@ -21483,7 +21483,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_5b3c88bc-4eb8-417f-933a-92ae812474dc">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_43690688-e461-431a-aa3d-040f00cd791d">
                   <gml:surfaceMember>
@@ -21501,7 +21501,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_0e622596-b7be-492d-9bb3-8d6bec535d8b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_5a1b2f04-9cec-4979-80f6-700758234582">
                   <gml:surfaceMember>
@@ -21519,7 +21519,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_aa7b24e4-ea51-4af1-92c1-953bc385e09f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_44429d84-3d84-4ab5-a644-7c175cb24644">
                   <gml:surfaceMember>
@@ -21537,7 +21537,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_6817d21e-4ddf-422b-ab79-acafd9c10c6e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f62fea93-b1ba-4141-987b-dd27af2d9432">
                   <gml:surfaceMember>
@@ -21555,7 +21555,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a83cb669-7c6b-4319-8bc5-33ba1a20b294">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_f5b3dbd4-cb1c-4935-b380-45cde544d799">
                   <gml:surfaceMember>
@@ -21573,7 +21573,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_1a31474d-63a2-4e2b-a55c-13a8357956de">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_c0bb5f92-f159-4b5e-9dbf-ad7aa4bb2840">
                   <gml:surfaceMember>
@@ -21591,7 +21591,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_6a91e0f5-ac48-4311-ac60-9eb6caa75265">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_398c8cf1-7a97-437d-92a1-9030c5c09d89">
                   <gml:surfaceMember>
@@ -21609,7 +21609,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d5feb04c-4ce6-417f-b3c7-18fe672d9be0">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_60a1489e-1db2-4116-9134-c01b3578b119">
                   <gml:surfaceMember>
@@ -21627,7 +21627,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_9ec62b86-d8fd-4117-9314-d32cc4a6c19b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_5f651cc6-9063-4826-8ef2-fbad0a76ff50">
                   <gml:surfaceMember>
@@ -21645,7 +21645,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_b0fb9266-15d0-4fd8-9492-d016036cb4c8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_1b4abe11-9088-4407-8ad4-7ff5de03a91a">
                   <gml:surfaceMember>
@@ -21663,7 +21663,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_98d6e88a-dc5c-4e78-bb82-1ad5bee9d066">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8b1114b0-2f75-4d97-ad2e-289f7725b24a">
                   <gml:surfaceMember>
@@ -21681,7 +21681,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_c168db23-4ed0-4a94-b868-b49195b6cb33">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_56dcc8b6-1a1f-4e73-88a7-6b84a6a11d20">
                   <gml:surfaceMember>
@@ -21699,7 +21699,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_48065ccd-cbdd-4446-8bb1-1357a60faa3c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_16d193cc-9e0e-44ba-943e-27b327930d2c">
                   <gml:surfaceMember>
@@ -21717,7 +21717,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_88001409-df69-4274-9cf0-26708f3b4b1e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_c9a271d2-0e35-4096-a0b7-89d9fb452e41">
                   <gml:surfaceMember>
@@ -21735,7 +21735,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_452761f5-e9ad-45e1-94c7-783cf97134a1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_e9fff9fe-d734-41a1-a41b-7cd076b10589">
                   <gml:surfaceMember>
@@ -21753,7 +21753,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_cd03d1fd-f17e-41d8-a2b3-e31f5774d8e8">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_63e889fc-a862-4075-8937-78ff1a7da8b6">
                   <gml:surfaceMember>
@@ -21771,7 +21771,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_fc7cb954-c915-420b-9982-1ae94c56129c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_5e46e7c2-aa29-47ed-8d23-b808f6b7e7f3">
                   <gml:surfaceMember>
@@ -21789,7 +21789,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_8d69cad9-000e-49f8-bdc9-90dc6c291d5c">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_608576bb-8a98-4576-9180-d809c08bbd49">
                   <gml:surfaceMember>
@@ -21807,7 +21807,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_dacc39bb-18de-469f-a8c3-49465d90f739">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_259189ef-ce70-4b86-86d2-3ae96b5930b6">
                   <gml:surfaceMember>
@@ -21825,7 +21825,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_314d7051-02b7-4801-9826-887d0509b79e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_9fd8ecd7-5f2b-4b74-aee9-19a638c23d6a">
                   <gml:surfaceMember>
@@ -21843,7 +21843,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_e7bd34fd-e907-4f3e-93c3-2b1bb7ffc4df">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_607a7cc0-b843-4572-aae0-6609ffafe367">
                   <gml:surfaceMember>
@@ -21861,7 +21861,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_89a1eadd-d779-49ad-90a2-825242e9a35e">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_54acd64c-f2c5-4865-b8ad-e3f09d6d3b8e">
                   <gml:surfaceMember>
@@ -21879,7 +21879,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a6d10363-04a6-4147-8a4f-8f36cbceaaff">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_582ff126-bb4f-4791-906f-2c87569f8cbb">
                   <gml:surfaceMember>
@@ -21897,7 +21897,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_2e39e6b4-f307-43dc-8f84-6a8fa8aab2a3">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_7043b7b7-e005-43c3-b2a1-f8e5146a42f6">
                   <gml:surfaceMember>
@@ -21915,7 +21915,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_ed2c5123-ab7f-4dc5-a91e-315794b7a924">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_00a96a41-3b9e-40dc-bdfd-ef5e3dc521ef">
                   <gml:surfaceMember>
@@ -21933,7 +21933,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_0a5824ad-dedd-4fdc-9b16-b2ecc8e5abc3">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_8f696dbe-5c4e-484d-91d5-6dfe7570b975">
                   <gml:surfaceMember>
@@ -21951,7 +21951,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_399748b7-9b2a-4fdf-81ae-68ed287f3982">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3c2bbb0c-f524-4c32-bd5a-3fa9b94d896c">
                   <gml:surfaceMember>
@@ -21969,7 +21969,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_2ec9fbd5-138a-4971-b70b-41860e9f0af1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_54754e03-bc41-40ef-9664-95fc5d17f8c1">
                   <gml:surfaceMember>
@@ -21987,7 +21987,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:RoofSurface gml:id="UUID_c9b6b48e-8bbd-48cd-bcd8-4a3112136656">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_0890d58b-e1f7-4f94-ace7-80045a94a943">
                   <gml:surfaceMember>
@@ -22005,7 +22005,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:GroundSurface gml:id="UUID_04e0f7a1-b41c-4d6b-9c82-ae5af0a83789">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface gml:id="UUID_3dce83e0-9c6d-4438-a56e-d7ed6ff683a6">
                   <gml:surfaceMember>
@@ -22023,7 +22023,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d67a1df5-569d-4926-bf02-195efbf6d60f">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22041,7 +22041,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22077,7 +22077,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_23bb625f-0b87-4517-9c7f-4c09d903b984">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22095,7 +22095,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22113,7 +22113,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_3cb9bb7c-2d05-4300-9697-a2297e997769">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22131,7 +22131,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22149,7 +22149,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a2fe52bb-4e79-420e-9c8d-63d8f86813e1">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22167,7 +22167,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22185,7 +22185,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_647aca0c-1db5-44c0-9f38-5df4528072d9">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22203,7 +22203,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22221,7 +22221,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_a3ff0bc8-adfc-4ffd-a4ce-82eae837ba19">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22239,7 +22239,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22257,7 +22257,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_f36cf8f2-01dd-43c8-86c4-72bc9f761e4b">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22275,7 +22275,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22293,7 +22293,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_d125dde4-a6b7-47ff-9bcb-de851b875c21">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22311,7 +22311,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22329,7 +22329,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_26b3dd5c-1efe-440c-9ae2-d991482ed237">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22347,7 +22347,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22365,7 +22365,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_5f677c28-da2e-4585-af80-0d07a04fdc8a">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22383,7 +22383,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22401,7 +22401,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_eefe271a-90a4-459c-aaa7-9fdaadb83923">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22419,7 +22419,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22437,7 +22437,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:WallSurface gml:id="UUID_7be88ab8-af91-4048-84bd-ba27f4c31892">
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22455,7 +22455,7 @@
           </bldg:boundedBy>
           <bldg:boundedBy>
             <bldg:ClosureSurface>
-              <core:creationDate>2018-02-05</core:creationDate>
+              <creationDate>2018-02-05</creationDate>
               <bldg:lod2MultiSurface>
                 <gml:MultiSurface>
                   <gml:surfaceMember>
@@ -22472,43 +22472,43 @@
             </bldg:ClosureSurface>
           </bldg:boundedBy>
           <bldg:address>
-            <core:Address>
-              <core:xalAddress>
-                <xal:AddressDetails>
-                  <xal:Country>
-                    <xal:CountryName>Germany</xal:CountryName>
-                    <xal:Locality Type="Town">
-                      <xal:LocalityName>Remscheid</xal:LocalityName>
-                      <xal:Thoroughfare Type="Street">
-                        <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                        <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                      </xal:Thoroughfare>
-                    </xal:Locality>
-                  </xal:Country>
-                </xal:AddressDetails>
-              </core:xalAddress>
-            </core:Address>
+            <Address>
+              <xalAddress>
+                <xAL:AddressDetails>
+                  <xAL:Country>
+                    <xAL:CountryName>Germany</xAL:CountryName>
+                    <xAL:Locality Type="Town">
+                      <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                      <xAL:Thoroughfare Type="Street">
+                        <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                        <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                      </xAL:Thoroughfare>
+                    </xAL:Locality>
+                  </xAL:Country>
+                </xAL:AddressDetails>
+              </xalAddress>
+            </Address>
           </bldg:address>
         </bldg:BuildingPart>
       </bldg:consistsOfBuildingPart>
       <bldg:address>
-        <core:Address>
-          <core:xalAddress>
-            <xal:AddressDetails>
-              <xal:Country>
-                <xal:CountryName>Germany</xal:CountryName>
-                <xal:Locality Type="Town">
-                  <xal:LocalityName>Remscheid</xal:LocalityName>
-                  <xal:Thoroughfare Type="Street">
-                    <xal:ThoroughfareNumber>34</xal:ThoroughfareNumber>
-                    <xal:ThoroughfareName>Küppelstein</xal:ThoroughfareName>
-                  </xal:Thoroughfare>
-                </xal:Locality>
-              </xal:Country>
-            </xal:AddressDetails>
-          </core:xalAddress>
-        </core:Address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:CountryName>Germany</xAL:CountryName>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Remscheid</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>34</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Küppelstein</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
       </bldg:address>
     </bldg:Building>
-  </core:cityObjectMember>
-</core:CityModel>
+  </cityObjectMember>
+</CityModel>
