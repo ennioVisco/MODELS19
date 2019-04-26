@@ -1,5 +1,6 @@
-# SEAMS19
-This repository collects the data used and generated for the paper named: _Engineering Adaptive City Spaces via Bidirectional Model Transformations_.
+# MODELS19
+This repository collects the data used and generated for the paper named: _Model-Driven Design of City Spaces via
+Bidirectional Transformations_.
 For actual use of these models refer to [topocity][4e32e58b].
 
 Each directory contains the data models for one of the case studies from the paper. Files are organized this way:
