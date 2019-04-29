@@ -4,7 +4,7 @@
 {- |
    Module     : Abstractions.CityGML.Core
 
-   Maintainer : Ennio Visconti (ennio.visconti@mail.polimi.it)
+   Maintainer : Unknown (unknown\@gmail.com)
    Stability  : stable
    Portability: portable
 

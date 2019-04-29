@@ -4,7 +4,7 @@
 {- |
    Module     : [Experimental] IO.BGEncoder
 
-   Maintainer : Ennio Visconti (ennio.visconti@mail.polimi.it)
+   Maintainer : Unknown (unknown\@gmail.com)
    Stability  : experimental
    Portability: portable
 
